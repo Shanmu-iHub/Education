@@ -8,8 +8,8 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>${title} | SNS Academy - Design Thinking CBSE School Coimbatore</title>
-        <meta name="description" content="SNS Academy - India's first Design Thinking CBSE school in Coimbatore. Nursery to Grade XII with world-class facilities.">
+        <title>${title} | Dr. SNS College of Education - Accredited with 'A' Grade by NAAC</title>
+        <meta name="description" content="Dr. SNS College of Education, Coimbatore - Moulding noble teachers with high thinking and healthy virtues. Affiliated with TNTEU and recognized by NCTE. Accreditated with 'A' Grade by NAAC.">
         
         <!-- Tailwind CSS -->
         <script src="https://cdn.tailwindcss.com"></script>
@@ -265,13 +265,13 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
         <!-- Hanging Tag 1: CBSE -->
         <div class="fixed top-[22%] right-0 z-50 swing">
             <div class="bg-gradient-to-br from-primary to-primary-700 text-white px-4 py-6 rounded-l-2xl shadow-2xl">
-                <span class="font-extrabold text-sm uppercase tracking-widest" style="writing-mode: vertical-rl; text-orientation: mixed; letter-spacing: 0.2em;">CBSE</span>
+                <span class="font-extrabold text-sm uppercase tracking-widest" style="writing-mode: vertical-rl; text-orientation: mixed; letter-spacing: 0.2em;">NAAC 'A' Grade</span>
             </div>
         </div>
         
         <!-- Hanging Tag 2: Brochure -->
         <div class="fixed top-[36%] right-0 z-50 swing" style="animation-delay: 0.3s;">
-            <a href="https://snsacademy.org/brochure/" target="_blank" class="bg-gradient-to-br from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700 text-white px-4 py-8 rounded-l-2xl shadow-2xl flex flex-col items-center space-y-3 group transition-all">
+            <a href="https://drsnsce.edu.in/wp-content/uploads/2021/11/SNSCE-BROCHURE.pdf" target="_blank" class="bg-gradient-to-br from-red-600 to-pink-600 hover:from-red-700 hover:to-pink-700 text-white px-4 py-8 rounded-l-2xl shadow-2xl flex flex-col items-center space-y-3 group transition-all">
                 <i class="fas fa-file-pdf text-2xl group-hover:scale-110 transition-transform duration-300"></i>
                 <span class="font-extrabold text-sm uppercase tracking-widest" style="writing-mode: vertical-rl; text-orientation: mixed; letter-spacing: 0.2em;">BROCHURE</span>
             </a>
@@ -290,37 +290,33 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between items-center h-20">
                     <a href="/" class="flex items-center space-x-3">
-                        <img src="https://www.snsgroups.com/sns.png" alt="SNS Academy Logo" class="h-16 w-auto">
+                        <img src="/static/images/Dr.SNSCE.png" alt="Dr. SNS College of Education Logo" class="h-16 w-auto">
                         <div>
-                            <h1 class="text-xl font-bold text-gray-900">SNS Academy</h1>
-                            <p class="text-xs text-gray-500">Design Thinking School</p>
+                            <h1 class="text-xl font-bold text-gray-900">Dr. SNS College of Education</h1>
+                            <p class="text-xs text-gray-500">Moulding Noble Teachers</p>
                         </div>
                     </a>
                     
                     <div class="hidden md:flex items-center space-x-6">
                         <a href="/" class="${activePage === 'home' ? 'text-primary font-bold' : 'text-gray-700 hover:text-primary'} font-medium">Home</a>
                         
-                        <!-- Academics Dropdown -->
                         <div class="relative group">
-                            <button class="${activePage.startsWith('academics') || activePage === 'stanford-pathway' ? 'text-primary font-bold' : 'text-gray-700 hover:text-primary'} font-medium flex items-center">
-                                Academics <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                            <button class="${activePage.startsWith('academics') ? 'text-primary font-bold' : 'text-gray-700 hover:text-primary'} font-medium flex items-center">
+                                Programs <i class="fas fa-chevron-down ml-1 text-xs"></i>
                             </button>
                             <div class="absolute hidden group-hover:block bg-white shadow-xl rounded-lg py-2 w-64 mt-0 z-50">
-                                <a href="/academics/pre-primary" class="block px-4 py-2 hover:bg-primary-50 text-gray-700">Pre-Primary (Pre-KG, LKG, UKG)</a>
-                                <a href="/academics/primary" class="block px-4 py-2 hover:bg-primary-50 text-gray-700">Primary (Grades 1-5)</a>
-                                <a href="/academics/middle" class="block px-4 py-2 hover:bg-primary-50 text-gray-700">Middle School (Grades 6-8)</a>
-                                <a href="/academics/secondary" class="block px-4 py-2 hover:bg-primary-50 text-gray-700">Secondary & Senior Secondary (Grades 9-12)</a>
+                                <a href="/academics/bed" class="block px-4 py-2 hover:bg-primary-50 text-gray-700">Bachelor of Education (B.Ed.)</a>
                                 <div class="border-t my-2"></div>
-                                <a href="/stanford-pathway" class="block px-4 py-2 hover:bg-primary-50 text-gray-700 font-semibold">
-                                    <i class="fas fa-university text-primary mr-2"></i>Pathway to Stanford
+                                <a href="/academics/subjects" class="block px-4 py-2 hover:bg-primary-50 text-gray-700 font-semibold">
+                                    <i class="fas fa-book-reader text-primary mr-2"></i>Pedagogy Subjects
                                 </a>
                             </div>
                         </div>
                         
                         <!-- Infrastructure Dropdown -->
                         <div class="relative group">
-                            <button class="${['facilities', 'gallery', 'transport'].includes(activePage) ? 'text-orange-600 font-bold' : 'text-gray-700 hover:text-orange-600'} font-medium flex items-center">
-                                Infrastructure <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                            <button class="${['facilities', 'gallery', 'transport'].includes(activePage) ? 'text-primary font-bold' : 'text-gray-700 hover:text-primary'} font-medium flex items-center">
+                                Campus <i class="fas fa-chevron-down ml-1 text-xs"></i>
                             </button>
                             <div class="absolute hidden group-hover:block bg-white shadow-xl rounded-lg py-2 w-48 mt-0 z-50">
                                 <a href="/facilities" class="block px-4 py-2 hover:bg-primary-50 text-gray-700">Facilities</a>
@@ -331,26 +327,27 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                         
                         <!-- Beyond Academics Dropdown -->
                         <div class="relative group">
-                            <button class="${['sports-clubs', 'innovation', 'events', 'success-stories'].includes(activePage) ? 'text-orange-600 font-bold' : 'text-gray-700 hover:text-orange-600'} font-medium flex items-center">
-                                Beyond Academics <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                            <button class="${['sports-clubs', 'innovation', 'events', 'success-stories'].includes(activePage) ? 'text-primary font-bold' : 'text-gray-700 hover:text-primary'} font-medium flex items-center">
+                                Student Life <i class="fas fa-chevron-down ml-1 text-xs"></i>
                             </button>
                             <div class="absolute hidden group-hover:block bg-white shadow-xl rounded-lg py-2 w-56 mt-0 z-50">
                                 <a href="/sports-clubs" class="block px-4 py-2 hover:bg-primary-50 text-gray-700">Sports & Clubs</a>
                                 <a href="/innovation" class="block px-4 py-2 hover:bg-primary-50 text-gray-700">Innovation Hub</a>
                                 <a href="/events" class="block px-4 py-2 hover:bg-primary-50 text-gray-700">Events & Celebrations</a>
-                                <a href="/success-stories" class="block px-4 py-2 hover:bg-primary-50 text-gray-700">Success Stories</a>
+                                <a href="/success-stories" class="block px-4 py-2 hover:bg-primary-50 text-gray-700">Laurels & Achievements</a>
                             </div>
                         </div>
                         
                         <!-- Meet Us Dropdown -->
                         <div class="relative group">
-                            <button class="${['about', 'contact', 'mandatory-disclosure'].includes(activePage) ? 'text-orange-600 font-bold' : 'text-gray-700 hover:text-orange-600'} font-medium flex items-center">
-                                Meet Us <i class="fas fa-chevron-down ml-1 text-xs"></i>
+                            <button class="${['about', 'contact', 'mandatory-disclosure'].includes(activePage) ? 'text-primary font-bold' : 'text-gray-700 hover:text-primary'} font-medium flex items-center">
+                                Institutional <i class="fas fa-chevron-down ml-1 text-xs"></i>
                             </button>
                             <div class="absolute hidden group-hover:block bg-white shadow-xl rounded-lg py-2 w-56 mt-0 z-50">
                                 <a href="/about" class="block px-4 py-2 hover:bg-primary-50 text-gray-700">About Us</a>
                                 <a href="/contact" class="block px-4 py-2 hover:bg-primary-50 text-gray-700">Contact Us</a>
                                 <a href="/mandatory-disclosure" class="block px-4 py-2 hover:bg-primary-50 text-gray-700">Mandatory Disclosure</a>
+                                <a href="/faculty" class="block px-4 py-2 hover:bg-primary-50 text-gray-700">Staff Profile</a>
                             </div>
                         </div>
                         
@@ -376,14 +373,8 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                             Academics <i class="fas fa-chevron-down"></i>
                         </button>
                         <div id="mobile-academics" class="hidden pl-4 space-y-2 mt-2">
-                            <a href="/academics/pre-primary" class="block text-gray-600 hover:text-orange-600 py-1">Pre-Primary (Pre-KG, LKG, UKG)</a>
-                            <a href="/academics/primary" class="block text-gray-600 hover:text-orange-600 py-1">Primary (Grades 1-5)</a>
-                            <a href="/academics/middle" class="block text-gray-600 hover:text-orange-600 py-1">Middle School (Grades 6-8)</a>
-                            <a href="/academics/secondary" class="block text-gray-600 hover:text-orange-600 py-1">Secondary & Senior Secondary (Grades 9-12)</a>
-                            <div class="border-t my-2"></div>
-                            <a href="/stanford-pathway" class="block text-gray-600 hover:text-orange-600 py-1 font-semibold">
-                                <i class="fas fa-university text-orange-600 mr-2"></i>Pathway to Stanford
-                            </a>
+                            <a href="/academics/bed" class="block text-gray-600 hover:text-green-600 py-1">Bachelor of Education (B.Ed.)</a>
+                            <a href="/academics/subjects" class="block text-gray-600 hover:text-green-600 py-1">Pedagogy Subjects</a>
                         </div>
                     </div>
                     
@@ -418,9 +409,10 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                             Meet Us <i class="fas fa-chevron-down"></i>
                         </button>
                         <div id="mobile-meetus" class="hidden pl-4 space-y-2 mt-2">
-                            <a href="/about" class="block text-gray-600 hover:text-orange-600 py-1">About Us</a>
-                            <a href="/contact" class="block text-gray-600 hover:text-orange-600 py-1">Contact Us</a>
-                            <a href="/mandatory-disclosure" class="block text-gray-600 hover:text-orange-600 py-1">Mandatory Disclosure</a>
+                            <a href="/about" class="block text-gray-600 hover:text-green-600 py-1">About Us</a>
+                            <a href="/contact" class="block text-gray-600 hover:text-green-600 py-1">Contact Us</a>
+                            <a href="/mandatory-disclosure" class="block text-gray-600 hover:text-green-600 py-1">Mandatory Disclosure</a>
+                            <a href="/faculty" class="block text-gray-600 hover:text-green-600 py-1">Staff Profile</a>
                         </div>
                     </div>
                     
@@ -440,16 +432,16 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                 <div class="grid md:grid-cols-4 gap-8 mb-8">
                     <div>
                         <div class="flex items-center space-x-3 mb-4">
-                            <img src="https://www.snsgroups.com/sns.png" alt="SNS Academy Logo" class="h-12 w-auto bg-white rounded p-1">
+                            <img src="/static/images/Dr.SNSCE.png" alt="Dr. SNS College of Education Logo" class="h-12 w-auto bg-white rounded p-1">
                             <div>
-                                <h3 class="text-white font-bold">SNS Academy</h3>
-                                <p class="text-xs">Design Thinking School</p>
+                                <h3 class="text-white font-bold">Dr. SNS College of Education</h3>
+                                <p class="text-xs">Moulding Noble Teachers</p>
                             </div>
                         </div>
                         <p class="text-sm leading-relaxed">
-                            CBSE Affiliation: 1930610<br>
-                            Established: 2014<br>
-                            Coimbatore, Tamil Nadu
+                            Affiliated to TNTEU<br>
+                            Recognized by NCTE<br>
+                            Accredited with 'A' Grade by NAAC
                         </p>
                     </div>
                     
@@ -461,8 +453,8 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                             <li><a href="/facilities" class="hover:text-white transition">Facilities</a></li>
                             <li><a href="/gallery" class="hover:text-white transition">Gallery</a></li>
                             <li><a href="/sports-clubs" class="hover:text-white transition">Sports & Clubs</a></li>
-                            <li><a href="/events" class="hover:text-white transition">Events & Celebrations</a></li>
-                            <li><a href="/success-stories" class="hover:text-white transition">Success Stories</a></li>
+                            <li><a href="/events" class="hover:text-white transition">Events</a></li>
+                            <li><a href="/success-stories" class="hover:text-white transition">Student Laurels</a></li>
                             <li><a href="/transport" class="hover:text-white transition">Transport</a></li>
                             <li><a href="/innovation" class="hover:text-white transition">Innovation Hub</a></li>
                             <li><a href="/brochure" class="hover:text-white transition">Download Brochure</a></li>
@@ -474,11 +466,9 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                     <div>
                         <h4 class="text-white font-bold mb-4">Academics</h4>
                         <ul class="space-y-2 text-sm">
-                            <li><a href="/academics/pre-primary" class="hover:text-white transition">Pre-Primary</a></li>
-                            <li><a href="/academics/primary" class="hover:text-white transition">Primary</a></li>
-                            <li><a href="/academics/middle" class="hover:text-white transition">Middle School</a></li>
-                            <li><a href="/academics/secondary" class="hover:text-white transition">Secondary & Senior Secondary</a></li>
-                            <li><a href="/stanford-pathway" class="hover:text-white transition">Pathway to Stanford</a></li>
+                            <li><a href="/academics/bed" class="hover:text-white transition">B.Ed. Program</a></li>
+                            <li><a href="/academics/subjects" class="hover:text-white transition">Pedagogy Subjects</a></li>
+                            <li><a href="/faculty" class="hover:text-white transition">Staff Profile</a></li>
                             <li><a href="/mandatory-disclosure" class="hover:text-white transition">Mandatory Disclosure</a></li>
                         </ul>
                     </div>
@@ -486,10 +476,10 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                     <div>
                         <h4 class="text-white font-bold mb-4">Connect</h4>
                         <ul class="space-y-2 text-sm mb-4">
-                            <li><i class="fas fa-map-marker-alt mr-2"></i>SNS Academy,<br />Thudiyalur - Saravanampatti Road,<br />Vellakinar Post,<br />Coimbatore - 641029.</li>
-                            <li><a href="tel:+919629937861" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Admission: +91 96299 37861</a></li>
-                            <li><a href="tel:+917530093730" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Landline: +91 75300 93730</a></li>
-                            <li><a href="mailto:info@snsacademy.org" class="hover:text-white transition"><i class="fas fa-envelope mr-2"></i>info@snsacademy.org</a></li>
+                            <li><i class="fas fa-map-marker-alt mr-2"></i>Chinavedampatti (Post),<br />Thudiyalur - Saravanampatti Road,<br />Coimbatore - 641049.</li>
+                            <li><a href="tel:+917530093729" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Contact: +91 75300 93729</a></li>
+                            <li><a href="tel:+917530093728" class="hover:text-white transition"><i class="fas fa-phone mr-2"></i>Enquiry: +91 75300 93728</a></li>
+                            <li><a href="mailto:drsnsce.cbe@gmail.com" class="hover:text-white transition"><i class="fas fa-envelope mr-2"></i>drsnsce.cbe@gmail.com</a></li>
                             <li><a href="mailto:job@snsgroups.com" class="hover:text-white transition"><i class="fas fa-briefcase mr-2"></i>Career: job@snsgroups.com</a></li>
                         </ul>
                         <div class="flex space-x-3">
@@ -510,10 +500,10 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
                 </div>
                 
                 <div class="border-t border-gray-800 pt-8 text-center text-sm">
-                    <p>&copy; 2026 SNS Academy. All rights reserved.</p>
-                    <p class="mt-2 text-primary-400 font-semibold">Redesigning Common Minds | We are Design Thinkers</p>
+                    <p>&copy; 2026 Dr. SNS College of Education. All rights reserved.</p>
+                    <p class="mt-2 text-primary-400 font-semibold">Moulding Noble Teachers with Healthy Virtues</p>
                     <p class="mt-1 text-xs">SNS Core Value: Sincerity, Nobility, Service</p>
-                    <p class="mt-3 text-primary-400 font-bold"><i class="fas fa-headset mr-2"></i>Helpline: 95644 23456</p>
+                    <p class="mt-3 text-primary-400 font-bold"><i class="fas fa-headset mr-2"></i>Admission Helpline: 75300 93729</p>
                 </div>
             </div>
         </footer>
@@ -539,12 +529,12 @@ export const Layout = (content: string, title: string, activePage: string = 'hom
             });
         </script>
         <!-- Instagram Floating Icon -->
-        <a href="https://www.instagram.com/snsacademy" class="instagram-float" target="_blank" rel="noopener noreferrer"
+        <a href="https://www.instagram.com/snsinstitutions" class="instagram-float" target="_blank" rel="noopener noreferrer"
             title="Follow us on Instagram">
             <i class="fab fa-instagram"></i>
         </a>
         <!-- WhatsApp Floating Icon -->
-        <a href="https://wa.me/919629937861" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
+        <a href="https://wa.me/917530093729" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
             title="Chat with us on WhatsApp">
             <i class="fab fa-whatsapp"></i>
         </a>

@@ -1,10 +1,11 @@
+
 import { PageHeader } from '../components/page-header'
 
 export const MandatoryDisclosurePage = () => {
     return `
     ${PageHeader(
-        'Mandatory Public Disclosure',
-        'APPENDIX - IX | As per CBSE Guidelines',
+        'Mandatory Disclosure',
+        'Official institutional information and statutory disclosures as per NCTE and TNTEU norms',
         '/static/images/hero.png',
         'Mandatory Disclosure'
     )}
@@ -12,11 +13,11 @@ export const MandatoryDisclosurePage = () => {
     <!-- A: General Information -->
     <section class="py-12 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold mb-8 text-gray-900">A. General Information</h2>
+            <h2 class="text-3xl font-bold mb-8 text-gray-900 border-l-4 border-primary pl-4">General Information</h2>
             
             <div class="overflow-x-auto">
                 <table class="w-full border-collapse border border-gray-300">
-                    <thead class="bg-primary-50">
+                    <thead class="bg-primary-50 text-primary">
                         <tr>
                             <th class="border border-gray-300 px-4 py-3 text-left font-bold">SL NO.</th>
                             <th class="border border-gray-300 px-4 py-3 text-left font-bold">INFORMATION</th>
@@ -26,43 +27,48 @@ export const MandatoryDisclosurePage = () => {
                     <tbody>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">1</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">NAME OF THE SCHOOL</td>
-                            <td class="border border-gray-300 px-4 py-3">SNS ACADEMY</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold text-gray-700">NAME OF THE INSTITUTION</td>
+                            <td class="border border-gray-300 px-4 py-3 font-bold">DR. SNS COLLEGE OF EDUCATION</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">2</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">AFFILIATION NO.</td>
-                            <td class="border border-gray-300 px-4 py-3">1930610</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold text-gray-700">AFFILIATING UNIVERSITY</td>
+                            <td class="border border-gray-300 px-4 py-3">Tamil Nadu Teachers Education University, Chennai</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">3</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">SCHOOL CODE</td>
-                            <td class="border border-gray-300 px-4 py-3">55513</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold text-gray-700">RECOGNITION BODY</td>
+                            <td class="border border-gray-300 px-4 py-3">National Council for Teacher Education (NCTE)</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">4</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">COMPLETE ADDRESS WITH PIN CODE</td>
-                            <td class="border border-gray-300 px-4 py-3">538, Thudiyalur-Saravanampatti Road, Vellakinar Post, Coimbatore - 641029, Tamil Nadu</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold text-gray-700">NAAC ACCREDITATION</td>
+                            <td class="border border-gray-300 px-4 py-3"><span class="bg-primary text-white px-2 py-0.5 rounded text-xs font-bold mr-1">A GRADE</span> CGPA 3.32 (First Cycle)</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">5</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">PRINCIPAL NAME</td>
-                            <td class="border border-gray-300 px-4 py-3">Sri Vidhya Prince</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold text-gray-700">COMPLETE ADDRESS</td>
+                            <td class="border border-gray-300 px-4 py-3">Chinavedampatti (Post), Thudiyalur-Saravanampatti Road, Coimbatore - 641049, Tamil Nadu</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">6</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">PRINCIPAL QUALIFICATION</td>
-                            <td class="border border-gray-300 px-4 py-3">M.Sc, M.Ed, M.Phil</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold text-gray-700">PRINCIPAL NAME</td>
+                            <td class="border border-gray-300 px-4 py-3 font-bold">Dr. P. Tamil Selvi</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">7</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">SCHOOL EMAIL ID</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="mailto:office@snsacademy.org" class="text-primary hover:underline">office@snsacademy.org</a></td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold text-gray-700">PRINCIPAL QUALIFICATION</td>
+                            <td class="border border-gray-300 px-4 py-3">M.Sc., M.A., M.Ed., M.Phil., Ph.D.</td>
                         </tr>
                         <tr class="hover:bg-gray-50">
                             <td class="border border-gray-300 px-4 py-3">8</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">CONTACT DETAILS</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="tel:+919629937861" class="text-primary hover:underline">+91 96299 37861</a></td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold text-gray-700">COLLEGE EMAIL ID</td>
+                            <td class="border border-gray-300 px-4 py-3 font-medium"><a href="mailto:drsnsce.cbe@gmail.com" class="text-primary hover:underline">drsnsce.cbe@gmail.com</a></td>
+                        </tr>
+                        <tr class="hover:bg-gray-50">
+                            <td class="border border-gray-300 px-4 py-3">9</td>
+                            <td class="border border-gray-300 px-4 py-3 font-semibold text-gray-700">PHONE NUMBERS</td>
+                            <td class="border border-gray-300 px-4 py-3 text-gray-600">+91 75300 93729 / 75300 93728</td>
                         </tr>
                     </tbody>
                 </table>
@@ -70,330 +76,112 @@ export const MandatoryDisclosurePage = () => {
         </div>
     </section>
 
-    <!-- B: Documents and Information -->
+    <!-- B: Statutory Documents -->
     <section class="py-12 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold mb-8 text-gray-900">B. Documents and Information</h2>
+            <h2 class="text-3xl font-bold mb-8 text-gray-900 border-l-4 border-primary pl-4">Statutory Documents</h2>
             
-            <div class="overflow-x-auto">
-                <table class="w-full border-collapse border border-gray-300 bg-white">
-                    <thead class="bg-primary-50">
-                        <tr>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">SL NO.</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">DOCUMENTS/INFORMATION</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">LINKS</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">1</td>
-                            <td class="border border-gray-300 px-4 py-3">Copies of Affiliation/Upgradation Letter and Recent Extension of Affiliation</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/affiliationUpgradation/" target="_blank" class="text-primary hover:underline font-semibold">View Document</a></td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">2</td>
-                            <td class="border border-gray-300 px-4 py-3">Copies of Trust Registration/Renewal Certificate</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/TRUST_DEED/" target="_blank" class="text-primary hover:underline font-semibold">View Document</a></td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">3</td>
-                            <td class="border border-gray-300 px-4 py-3">Copy of No Objection Certificate (NOC) Issued by State Govt.</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/noc/" target="_blank" class="text-primary hover:underline font-semibold">View Document</a></td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">4</td>
-                            <td class="border border-gray-300 px-4 py-3">Copies of Recognition Certificate Under RTE Act, 2009</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/recognitionCertificate/" target="_blank" class="text-primary hover:underline font-semibold">View Document</a></td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">5</td>
-                            <td class="border border-gray-300 px-4 py-3">Copy of Valid Building Safety Certificate</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://cbse.snsacademy.org/Building%20Safety%20certificate.pdf" target="_blank" class="text-primary hover:underline font-semibold">View Document</a></td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">6</td>
-                            <td class="border border-gray-300 px-4 py-3">Copy of Valid Fire Safety Certificate</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/FireSafetyCertificate/" target="_blank" class="text-primary hover:underline font-semibold">View Document</a></td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">7</td>
-                            <td class="border border-gray-300 px-4 py-3">Copy of DEO Certificate / Self Certificate</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/SelfCertification/" target="_blank" class="text-primary hover:underline font-semibold">View Document</a></td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">8</td>
-                            <td class="border border-gray-300 px-4 py-3">Copies of Valid Water, Health and Sanitation Certificates</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/WaterHealthSanitationCertificates/" target="_blank" class="text-primary hover:underline font-semibold">View Document</a></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            
-            <div class="mt-6 bg-yellow-50 border-l-4 border-yellow-500 p-4">
-                <p class="text-sm text-gray-700"><strong>NOTE:</strong> The school uploads self-attested copies of above listed documents by Chairman/Manager/Secretary and Principal. If it is noticed at a later stage that uploaded documents are not genuine, the school shall be liable for action as per norms.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- C: Result and Academics -->
-    <section class="py-12 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold mb-8 text-gray-900">C. Result and Academics</h2>
-            
-            <div class="overflow-x-auto mb-8">
-                <table class="w-full border-collapse border border-gray-300">
-                    <thead class="bg-primary-50">
-                        <tr>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">SL NO.</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">DOCUMENTS/INFORMATION</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">LINKS</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">1</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">Fee Structure of the School</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/FeeStructure/" target="_blank" class="text-primary hover:underline font-semibold">View Document</a></td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">2</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">Annual Academic Calendar</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/AcademicCalender/" target="_blank" class="text-primary hover:underline font-semibold">View Document</a></td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">3</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">List of School Management Committee (SMC)</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/SchoolManagementCommittee/" target="_blank" class="text-primary hover:underline font-semibold">View Document</a></td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">4</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">List of Parents Teachers Association (PTA) Members</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/ParentsTeachersAssociation/" target="_blank" class="text-primary hover:underline font-semibold">View Document</a></td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">5</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">Last Three-Year Result of Board Examination</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://snsacademy.org/Three-YearResult/" target="_blank" class="text-primary hover:underline font-semibold">View Document</a></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <h3 class="text-2xl font-bold mb-6 text-gray-900">CBSE Board Results - Class X</h3>
-            <div class="overflow-x-auto mb-8">
-                <table class="w-full border-collapse border border-gray-300">
-                    <thead class="bg-primary-100">
-                        <tr>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">Year</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">Registered Students</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">Students Passed</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">Pass Percentage</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">2021-2022</td>
-                            <td class="border border-gray-300 px-4 py-3">30</td>
-                            <td class="border border-gray-300 px-4 py-3">30</td>
-                            <td class="border border-gray-300 px-4 py-3 font-bold text-primary">100%</td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">2022-2023</td>
-                            <td class="border border-gray-300 px-4 py-3">40</td>
-                            <td class="border border-gray-300 px-4 py-3">40</td>
-                            <td class="border border-gray-300 px-4 py-3 font-bold text-primary">100%</td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">2023-2024</td>
-                            <td class="border border-gray-300 px-4 py-3">53</td>
-                            <td class="border border-gray-300 px-4 py-3">53</td>
-                            <td class="border border-gray-300 px-4 py-3 font-bold text-primary">100%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <h3 class="text-2xl font-bold mb-6 text-gray-900">CBSE Board Results - Class XII</h3>
-            <div class="overflow-x-auto">
-                <table class="w-full border-collapse border border-gray-300">
-                    <thead class="bg-primary-100">
-                        <tr>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">Year</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">Registered Students</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">Students Passed</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">Pass Percentage</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">2021-2022</td>
-                            <td class="border border-gray-300 px-4 py-3">42</td>
-                            <td class="border border-gray-300 px-4 py-3">42</td>
-                            <td class="border border-gray-300 px-4 py-3 font-bold text-primary">100%</td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">2022-2023</td>
-                            <td class="border border-gray-300 px-4 py-3">49</td>
-                            <td class="border border-gray-300 px-4 py-3">49</td>
-                            <td class="border border-gray-300 px-4 py-3 font-bold text-primary">100%</td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">2023-2024</td>
-                            <td class="border border-gray-300 px-4 py-3">37</td>
-                            <td class="border border-gray-300 px-4 py-3">37</td>
-                            <td class="border border-gray-300 px-4 py-3 font-bold text-primary">100%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
-    <!-- D: Staff (Teaching) -->
-    <section class="py-12 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold mb-8 text-gray-900">D. Staff (Teaching)</h2>
-            
-            <div class="overflow-x-auto">
-                <table class="w-full border-collapse border border-gray-300 bg-white">
-                    <thead class="bg-primary-50">
-                        <tr>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">SL NO.</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">INFORMATION</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">DETAILS</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">1</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">Principal</td>
-                            <td class="border border-gray-300 px-4 py-3">Sri Vidhya Prince</td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">2</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">Total Number of Teachers</td>
-                            <td class="border border-gray-300 px-4 py-3">
-                                <div class="space-y-1">
-                                    <div><strong>Total:</strong> 54</div>
-                                    <div>PGT (Post Graduate Teachers): 14</div>
-                                    <div>TGT (Trained Graduate Teachers): 18</div>
-                                    <div>PRT (Primary Teachers): 22</div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">3</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">Teachers Section Ratio</td>
-                            <td class="border border-gray-300 px-4 py-3">1:1.5</td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">4</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">Details of Special Educator</td>
-                            <td class="border border-gray-300 px-4 py-3">1</td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">5</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">Details of Counsellor and Wellness Teacher</td>
-                            <td class="border border-gray-300 px-4 py-3">1</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
-    <!-- E: School Infrastructure -->
-    <section class="py-12 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold mb-8 text-gray-900">E. School Infrastructure</h2>
-            
-            <div class="overflow-x-auto">
-                <table class="w-full border-collapse border border-gray-300">
-                    <thead class="bg-primary-50">
-                        <tr>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">SL NO.</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">INFORMATION</th>
-                            <th class="border border-gray-300 px-4 py-3 text-left font-bold">DETAILS</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">1</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">Total Campus Area (in sq mtr)</td>
-                            <td class="border border-gray-300 px-4 py-3">9,176 sq mtr</td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">2</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">No. and Size of Classrooms (in sq mtr)</td>
-                            <td class="border border-gray-300 px-4 py-3">36 Classrooms | 589 sq mtr</td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">3</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">No. and Size of Laboratories including Computer Labs (in sq mtr)</td>
-                            <td class="border border-gray-300 px-4 py-3">5 Laboratories | 669 sq mtr</td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">4</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">Internet Facility</td>
-                            <td class="border border-gray-300 px-4 py-3"><span class="text-primary font-bold">YES</span></td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">5</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">No. of Girls Toilets</td>
-                            <td class="border border-gray-300 px-4 py-3">53</td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">6</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">No. of Boys Toilets</td>
-                            <td class="border border-gray-300 px-4 py-3">36</td>
-                        </tr>
-                        <tr class="hover:bg-gray-50">
-                            <td class="border border-gray-300 px-4 py-3">7</td>
-                            <td class="border border-gray-300 px-4 py-3 font-semibold">YouTube Video of School Inspection</td>
-                            <td class="border border-gray-300 px-4 py-3"><a href="https://youtu.be/rrJq-eqWxSc" target="_blank" class="text-primary hover:underline font-semibold">Watch Video</a></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
-    <!-- F: SARAS -->
-    <section class="py-12 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold mb-8 text-gray-900">F. SARAS</h2>
-            
-            <div class="bg-white rounded-xl shadow-lg p-8">
-                <div class="flex items-center justify-between">
-                    <div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Complete Mandatory Disclosure PDF</h3>
-                        <p class="text-gray-600">Download the complete mandatory disclosure document as per CBSE guidelines</p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                ${[
+            { title: "NCTE Recognition Order", link: "https://drsnsce.edu.in/ncte-recognition-order/" },
+            { title: "TNTEU Affiliation Order", link: "https://drsnsce.edu.in/affiliation/" },
+            { title: "NAAC Certificate", link: "#" },
+            { title: "Trust Deed", link: "#" },
+            { title: "Building Safety Certificate", link: "#" },
+            { title: "Fire Safety Certificate", link: "#" },
+            { title: "Sanitary Certificate", link: "#" },
+            { title: "Land Documents", link: "https://drsnsce.edu.in/land-documents/" },
+            { title: "Balance Sheet (Audited Statement)", link: "https://drsnsce.edu.in/audited-statements/" }
+        ].map(doc => `
+                    <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition flex items-center justify-between group border border-gray-100">
+                        <div class="flex items-center">
+                            <i class="far fa-file-pdf text-primary text-2xl mr-4 group-hover:scale-110 transition"></i>
+                            <span class="font-bold text-gray-800 text-sm">${doc.title}</span>
+                        </div>
+                        <a href="${doc.link}" class="text-primary hover:bg-primary-50 p-2 rounded-lg" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
                     </div>
-                    <a href="https://snsacademy.org/MandatoryDisclosurePDF/" target="_blank" class="bg-primary hover:bg-primary-700 text-white px-6 py-3 rounded-lg font-bold transition inline-flex items-center">
-                        <i class="fas fa-download mr-2"></i>
-                        Download PDF
-                    </a>
+                `).join('')}
+            </div>
+        </div>
+    </section>
+
+    <!-- C: Infrastructure & Staff Details -->
+    <section class="py-12 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+             <h2 class="text-3xl font-bold mb-8 text-gray-900 border-l-4 border-primary pl-4">Infrastructure & Staff</h2>
+            
+             <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-primary-600 rounded-3xl p-8 text-white">
+                    <h3 class="text-2xl font-bold mb-6">Staff Details</h3>
+                    <ul class="space-y-4">
+                        <li class="flex justify-between border-b border-primary-500 pb-2">
+                            <span>Principal</span>
+                            <span class="font-bold">01</span>
+                        </li>
+                        <li class="flex justify-between border-b border-primary-500 pb-2">
+                            <span>Regular Teaching Faculty</span>
+                            <span class="font-bold">15</span>
+                        </li>
+                        <li class="flex justify-between border-b border-primary-500 pb-2">
+                            <span>Non-Teaching Staff</span>
+                            <span class="font-bold">08</span>
+                        </li>
+                         <li class="flex justify-between border-b border-primary-500 pb-2">
+                            <span>Student-Teacher Ratio</span>
+                            <span class="font-bold">1:15</span>
+                        </li>
+                    </ul>
                 </div>
+                
+                <div class="bg-gray-800 rounded-3xl p-8 text-white">
+                    <h3 class="text-2xl font-bold mb-6">Campus Infrastructure</h3>
+                    <ul class="space-y-4">
+                        <li class="flex justify-between border-b border-gray-700 pb-2">
+                            <span>Total Land Area</span>
+                            <span class="font-bold">2500 sq.m.</span>
+                        </li>
+                        <li class="flex justify-between border-b border-gray-700 pb-2">
+                            <span>Built-up Area</span>
+                            <span class="font-bold">2450 sq.m.</span>
+                        </li>
+                        <li class="flex justify-between border-b border-gray-700 pb-2">
+                            <span>Library Books</span>
+                            <span class="font-bold">12,000+</span>
+                        </li>
+                        <li class="flex justify-between border-b border-gray-700 pb-2">
+                            <span>ICT Center</span>
+                            <span class="font-bold">Fully Equipped</span>
+                        </li>
+                    </ul>
+                </div>
+             </div>
+        </div>
+    </section>
+
+    <!-- F: Annual Quality Assurance Report (AQAR) -->
+    <section class="py-12 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold mb-8 text-gray-900 border-l-4 border-primary pl-4">AQAR Reports</h2>
+            <div class="bg-white rounded-3xl p-8 shadow-sm">
+                 <div class="flex flex-col md:flex-row gap-8">
+                    <a href="https://drsnsce.edu.in/aqar-2022-2023/" class="flex-1 bg-gray-50 hover:bg-primary text-gray-800 hover:text-white p-6 rounded-2xl text-center font-bold transition">AQAR 2022-2023</a>
+                    <a href="https://drsnsce.edu.in/aqar-2021-2022/" class="flex-1 bg-gray-50 hover:bg-primary text-gray-800 hover:text-white p-6 rounded-2xl text-center font-bold transition">AQAR 2021-2022</a>
+                    <a href="https://drsnsce.edu.in/aqar-2020-2021/" class="flex-1 bg-gray-50 hover:bg-primary text-gray-800 hover:text-white p-6 rounded-2xl text-center font-bold transition">AQAR 2020-2021</a>
+                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA -->
-    <section class="py-16 bg-gradient-to-r from-primary to-primary-700 text-white">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl font-bold mb-4">Questions About Our Disclosures?</h2>
-            <p class="text-xl mb-8">Contact our office for any queries regarding mandatory disclosures and documentation</p>
-            <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="/contact" class="bg-white text-primary hover:bg-gray-100 px-8 py-3 rounded-lg font-bold transition">
-                    <i class="fas fa-envelope mr-2"></i>
-                    Contact Us
-                </a>
-                <a href="tel:+919629937861" class="bg-white/20 hover:bg-white/30 text-white px-8 py-3 rounded-lg font-bold transition">
-                    <i class="fas fa-phone mr-2"></i>
-                    Call: +91 96299 37861
-                </a>
-            </div>
+    <section class="py-16 bg-white border-t border-gray-100">
+        <div class="max-w-2xl mx-auto text-center px-4">
+            <h3 class="text-2xl font-bold mb-6">Need more information?</h3>
+            <p class="text-gray-600 mb-8">For any specific documentation or statutory query, please reach out to our administrative office.</p>
+             <a href="mailto:drsnsce.cbe@gmail.com" class="text-primary font-bold hover:underline mb-2 block">drsnsce.cbe@gmail.com</a>
+             <p class="text-sm text-gray-500 font-medium">Admission Helpline: +91 75300 93729</p>
         </div>
     </section>
-  `;
+    `;
 };

@@ -1,580 +1,196 @@
+
 import { PageHeader } from '../components/page-header'
 
-// Gallery Page with Real Infrastructure
+// Gallery Page
 export const GalleryPage = () => {
     return `
     ${PageHeader(
         'Campus Gallery',
-        'Explore our world-class infrastructure and vibrant campus life',
+        'Explore our state-of-the-art infrastructure and the vibrant learning environment at Dr. SNSCE',
         '/static/images/hero5.png',
         'Gallery'
     )}
 
-    <!-- Life at SNS Academy -->
+    <!-- Life at Dr. SNSCE -->
     <section class="py-16 bg-gradient-to-br from-primary-50 to-primary-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center mb-4">Life @ SNS Academy</h2>
-            <p class="text-center text-xl text-gray-600 mb-12">Where learning meets joy, and every day is an adventure!</p>
+            <h2 class="text-4xl font-bold text-center mb-4 text-gray-900 border-b-2 border-primary w-fit mx-auto pb-2">Life at Dr. SNSCE</h2>
+            <p class="text-center text-xl text-gray-600 mb-12">Where professional training meets creative excellence.</p>
             
             <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white rounded-2xl overflow-hidden shadow-xl card-hover">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-xl group">
                     <div class="h-64 relative overflow-hidden">
-                        <img src="/static/images/pre-primary.png" alt="Little Graduates" class="w-full h-full object-cover">
+                        <img src="/static/images/hero2.png" alt="Convocation" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
-                        <div class="absolute bottom-4 left-4 text-white">
-                            <i class="fas fa-graduation-cap text-3xl mb-2"></i>
-                        </div>
                     </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-2">Little Graduates</h3>
-                        <p class="text-gray-600">Celebrating achievements and milestones of our youngest learners</p>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-2">Academic Milestones</h3>
+                        <p class="text-gray-600 text-sm">Celebrating the transition of student-teachers into the noble world of education.</p>
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl overflow-hidden shadow-xl card-hover">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-xl group">
                     <div class="h-64 relative overflow-hidden">
-                        <img src="/static/images/SNS Academy Web/Colla Work.png" alt="Collaborative Work" class="w-full h-full object-cover">
+                        <img src="/static/images/SNS Academy Web/Colla Work.png" alt="Collaborative Learning" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
-                        <div class="absolute bottom-4 left-4 text-white">
-                            <i class="fas fa-users text-3xl mb-2"></i>
-                        </div>
                     </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-2">Collaborative Work</h3>
-                        <p class="text-gray-600">Students working together on innovative projects and problem-solving</p>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-2">Group Pedagogy</h3>
+                        <p class="text-gray-600 text-sm">Collaboration and peer learning form the core of our B.Ed. curriculum.</p>
                     </div>
                 </div>
                 
-                <div class="bg-white rounded-2xl overflow-hidden shadow-xl card-hover">
+                <div class="bg-white rounded-3xl overflow-hidden shadow-xl group">
                     <div class="h-64 relative overflow-hidden">
-                        <img src="/static/images/SNS Academy Web/Happy Envirn.png" alt="Happy Environment" class="w-full h-full object-cover">
+                        <img src="/static/images/Innovation.jpg" alt="Lab Work" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
-                        <div class="absolute bottom-4 left-4 text-white">
-                            <i class="fas fa-smile-beam text-3xl mb-2"></i>
-                        </div>
                     </div>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-2">Happy Environment</h3>
-                        <p class="text-gray-600">Nurturing positive atmosphere where every child thrives</p>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mb-2">Experiential Mastery</h3>
+                        <p class="text-gray-600 text-sm">Translating theory into practice through hands-on laboratory sessions.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- School Blocks -->
+    <!-- Campus Infrastructure -->
     <section class="py-16 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center mb-4">School Campus</h2>
-            <p class="text-center text-xl text-gray-600 mb-12">Wi-Fi enabled campus with smart classrooms and modern facilities</p>
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">College Infrastructure</h2>
             
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-lg">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fas fa-building text-4xl text-primary"></i>
+            <div class="grid md:grid-cols-4 gap-8 mb-16 text-center">
+                 <div class="p-6 bg-gray-50 rounded-3xl border border-gray-100 shadow-sm">
+                    <div class="w-16 h-16 bg-primary text-white rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-university text-2xl"></i>
                     </div>
-                    <h3 class="text-2xl font-bold text-center mb-4">A Block</h3>
-                    <p class="text-gray-700 text-center">Primary academic block with smart classrooms</p>
-                </div>
-                
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-lg">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fas fa-school text-4xl text-primary"></i>
+                    <h4 class="font-bold text-gray-900">Admin Block</h4>
+                 </div>
+                 <div class="p-6 bg-gray-50 rounded-3xl border border-gray-100 shadow-sm">
+                    <div class="w-16 h-16 bg-primary text-white rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-book-open text-2xl"></i>
                     </div>
-                    <h3 class="text-2xl font-bold text-center mb-4">B Block</h3>
-                    <p class="text-gray-700 text-center">Secondary education wing with advanced facilities</p>
-                </div>
-                
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-lg">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fas fa-landmark text-4xl text-primary"></i>
+                    <h4 class="font-bold text-gray-900">Academic Wing</h4>
+                 </div>
+                 <div class="p-6 bg-gray-50 rounded-3xl border border-gray-100 shadow-sm">
+                    <div class="w-16 h-16 bg-primary text-white rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-flask text-2xl"></i>
                     </div>
-                    <h3 class="text-2xl font-bold text-center mb-4">C Block</h3>
-                    <p class="text-gray-700 text-center">Senior secondary and administrative block</p>
-                </div>
+                    <h4 class="font-bold text-gray-900">Specialized Labs</h4>
+                 </div>
+                 <div class="p-6 bg-gray-50 rounded-3xl border border-gray-100 shadow-sm">
+                    <div class="w-16 h-16 bg-primary text-white rounded-2xl flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-users text-2xl"></i>
+                    </div>
+                    <h4 class="font-bold text-gray-900">Conference Hall</h4>
+                 </div>
             </div>
-
-            <div class="grid md:grid-cols-4 gap-6">
-                <div class="bg-white rounded-xl p-6 shadow-md text-center">
-                    <i class="fas fa-door-open text-4xl text-primary mb-3"></i>
-                    <h4 class="font-bold">Reception</h4>
-                </div>
-                <div class="bg-white rounded-xl p-6 shadow-md text-center">
-                    <i class="fas fa-chalkboard text-4xl text-primary mb-3"></i>
-                    <h4 class="font-bold">Smart Classrooms</h4>
-                </div>
-                <div class="bg-white rounded-xl p-6 shadow-md text-center">
-                    <i class="fas fa-baby text-4xl text-primary mb-3"></i>
-                    <h4 class="font-bold">Pre-KG</h4>
-                </div>
-                <div class="bg-white rounded-xl p-6 shadow-md text-center">
-                    <i class="fas fa-child text-4xl text-primary mb-3"></i>
-                    <h4 class="font-bold">LKG & UKG</h4>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Laboratories -->
-    <section class="py-16 bg-gradient-to-br from-primary-50 to-primary-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center mb-12">State-of-the-Art Laboratories</h2>
             
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white rounded-2xl p-8 shadow-xl">
-                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-6">
-                        <i class="fas fa-flask text-3xl text-primary"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-4">Chemistry Lab</h3>
-                    <p class="text-gray-600">Fully-equipped with modern apparatus for hands-on experiments</p>
-                </div>
-                
-                <div class="bg-white rounded-2xl p-8 shadow-xl">
-                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-6">
-                        <i class="fas fa-atom text-3xl text-primary"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-4">Physics Lab</h3>
-                    <p class="text-gray-600">Advanced equipment for scientific exploration and discovery</p>
-                </div>
-                
-                <div class="bg-white rounded-2xl p-8 shadow-xl">
-                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-6">
-                        <i class="fas fa-microscope text-3xl text-primary"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-4">Biology Lab</h3>
-                    <p class="text-gray-600">Complete setup for life sciences and biological studies</p>
-                </div>
-                
-                <div class="bg-white rounded-2xl p-8 shadow-xl">
-                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-6">
-                        <i class="fas fa-laptop-code text-3xl text-primary"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-4">Computer Lab</h3>
-                    <p class="text-gray-600">Latest computers with modern software and internet connectivity</p>
-                </div>
-                
-                <div class="bg-white rounded-2xl p-8 shadow-xl">
-                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-6">
-                        <i class="fas fa-calculator text-3xl text-primary"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-4">Maths Lab</h3>
-                    <p class="text-gray-600">Interactive learning tools for mathematical concepts</p>
-                </div>
-                
-                <div class="bg-white rounded-2xl p-8 shadow-xl">
-                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mb-6">
-                        <i class="fas fa-language text-3xl text-primary"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-4">Language Lab</h3>
-                    <p class="text-gray-600">Multimedia resources for language skill development</p>
-                </div>
-            </div>
+             <div class="grid md:grid-cols-2 gap-8">
+                 <div class="rounded-3xl overflow-hidden shadow-sm h-80">
+                    <img src="/static/images/Facility_lib.jpg" alt="Library" class="w-full h-full object-cover">
+                 </div>
+                 <div class="rounded-3xl overflow-hidden shadow-sm h-80">
+                    <img src="/static/images/Facility_lab.jpg" alt="Lab" class="w-full h-full object-cover">
+                 </div>
+             </div>
         </div>
     </section>
-
-    <!-- Other Facilities -->
-    <section class="py-16 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center mb-12">Premium Facilities</h2>
-            
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl p-6">
-                    <i class="fas fa-briefcase text-4xl text-primary mb-4"></i>
-                    <h3 class="text-xl font-bold mb-2">Board Room</h3>
-                    <p class="text-gray-600 text-sm">Professional meeting space for important discussions</p>
-                </div>
-                
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl p-6">
-                    <i class="fas fa-utensils text-4xl text-primary mb-4"></i>
-                    <h3 class="text-xl font-bold mb-2">VIP Dining</h3>
-                    <p class="text-gray-600 text-sm">Premium dining facility for guests and special events</p>
-                </div>
-                
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl p-6">
-                    <i class="fas fa-bus text-4xl text-primary mb-4"></i>
-                    <h3 class="text-xl font-bold mb-2">Transport</h3>
-                    <p class="text-gray-600 text-sm">Safe and comfortable school bus service</p>
-                </div>
-                
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl p-6">
-                    <i class="fas fa-video text-4xl text-primary mb-4"></i>
-                    <h3 class="text-xl font-bold mb-2">CCTV Security</h3>
-                    <p class="text-gray-600 text-sm">24/7 monitoring for student safety</p>
-                </div>
-                
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl p-6">
-                    <i class="fas fa-solar-panel text-4xl text-primary mb-4"></i>
-                    <h3 class="text-xl font-bold mb-2">Solar Powered</h3>
-                    <p class="text-gray-600 text-sm">Eco-friendly campus with solar energy</p>
-                </div>
-                
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl p-6">
-                    <i class="fas fa-wifi text-4xl text-primary mb-4"></i>
-                    <h3 class="text-xl font-bold mb-2">Wi-Fi Enabled</h3>
-                    <p class="text-gray-600 text-sm">Complete campus connectivity</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Executive Lounge -->
-    <section class="py-16 bg-gradient-to-br from-primary-50 to-primary-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center mb-4">SLUSH - Executive Lounge</h2>
-            <p class="text-center text-xl text-gray-600 mb-12">Premium space for top-performing students</p>
-            
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white rounded-2xl p-8 shadow-lg text-center">
-                    <i class="fas fa-gamepad text-6xl text-primary mb-6"></i>
-                    <h3 class="text-2xl font-bold mb-4">Video Gaming</h3>
-                    <p class="text-gray-600">Latest gaming consoles and equipment</p>
-                </div>
-                
-                <div class="bg-white rounded-2xl p-8 shadow-lg text-center">
-                    <i class="fas fa-star text-6xl text-primary mb-6"></i>
-                    <h3 class="text-2xl font-bold mb-4">Awe Inspiring</h3>
-                    <p class="text-gray-600">Motivational and inspiring environment</p>
-                </div>
-                
-                <div class="bg-white rounded-2xl p-8 shadow-lg text-center">
-                    <i class="fas fa-film text-6xl text-primary mb-6"></i>
-                    <h3 class="text-2xl font-bold mb-4">Entertainment</h3>
-                    <p class="text-gray-600">Movies, music, and recreational activities</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Play Area -->
-    <section class="py-16 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center mb-4">Happy Trails - Play Area</h2>
-            <p class="text-center text-xl text-gray-600 mb-12">Where imagination comes to life!</p>
-            
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl p-6 text-center">
-                    <i class="fas fa-home text-5xl text-primary mb-4"></i>
-                    <h3 class="font-bold text-lg">Play Houses</h3>
-                </div>
-                
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl p-6 text-center">
-                    <i class="fas fa-water text-5xl text-primary mb-4"></i>
-                    <h3 class="font-bold text-lg">Aquatics</h3>
-                </div>
-                
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl p-6 text-center">
-                    <i class="fas fa-puzzle-piece text-5xl text-primary mb-4"></i>
-                    <h3 class="font-bold text-lg">Mazes</h3>
-                </div>
-                
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl p-6 text-center">
-                    <i class="fas fa-tree text-5xl text-primary mb-4"></i>
-                    <h3 class="font-bold text-lg">Jungle Gym</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="py-16 bg-gradient-to-r from-primary to-primary-700 text-white">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-4xl font-bold mb-4">Experience Our Campus</h2>
-            <p class="text-xl mb-8">Schedule a visit to see our world-class infrastructure in person!</p>
-            <a href="/contact" class="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg transition inline-block">
-                <i class="fas fa-calendar-check mr-2"></i>
-                Book Campus Tour
-            </a>
-        </div>
-    </section>
-  `;
+    `;
 };
 
 // Sports & Clubs Page
 export const SportsClubsPage = () => {
     return `
     ${PageHeader(
-        'Sports & Clubs',
-        'Building champions in sports, arts, and life skills',
+        'Wellness & Life Skills',
+        'Fostering physical well-being and holistic character development',
         '/static/images/gym.jpg',
         'Sports & Clubs'
     )}
 
-    <!-- Sports for Life -->
-    <section class="py-16 bg-white">
+    <section class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center mb-4">Sports For Life</h2>
-            <p class="text-center text-xl text-gray-600 mb-12">
-                Well-developed play fields with specialized physical instructors to bring out the best in every student
-            </p>
+            <div class="grid lg:grid-cols-2 gap-16 items-center mb-24">
+                 <div>
+                    <h2 class="text-4xl font-bold text-gray-900 mb-6 font-display uppercase tracking-tighter">Physical <span class="text-primary italic">Education</span></h2>
+                    <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                        Dr. SNS College of Education provides extensive facilities for physical education, ensuring student-teachers develop a healthy mind in a healthy body. We encourage participation in various inter-collegiate tournaments and sports festivals.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="flex items-center space-x-3 text-gray-700 font-bold"><i class="fas fa-check text-primary"></i> <span>Football & Cricket</span></div>
+                        <div class="flex items-center space-x-3 text-gray-700 font-bold"><i class="fas fa-check text-primary"></i> <span>Volleyball & Kabaddi</span></div>
+                        <div class="flex items-center space-x-3 text-gray-700 font-bold"><i class="fas fa-check text-primary"></i> <span>Indoor Table Tennis</span></div>
+                        <div class="flex items-center space-x-3 text-gray-700 font-bold"><i class="fas fa-check text-primary"></i> <span>Chess & Athletics</span></div>
+                    </div>
+                 </div>
+                 <div class="grid grid-cols-2 gap-4">
+                    <div class="h-64 rounded-3xl overflow-hidden shadow-lg"><img src="/static/images/SNS Academy Web/Swim.png" class="w-full h-full object-cover"></div>
+                    <div class="h-64 rounded-3xl overflow-hidden shadow-lg mt-8"><img src="/static/images/SNS Academy Web/Indoor.png" class="w-full h-full object-cover"></div>
+                 </div>
+            </div>
             
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-lg card-hover">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fas fa-futbol text-4xl text-primary"></i>
+            <!-- Red Ribbon & NSS -->
+            <div class="bg-gray-50 rounded-3xl p-12 text-center">
+                 <h3 class="text-3xl font-bold mb-8">Social Responsibility Clubs</h3>
+                 <div class="grid md:grid-cols-3 gap-12">
+                    <div class="group">
+                        <div class="w-20 h-20 bg-primary/10 rounded-3xl flex items-center justify-center mx-auto mb-6 text-primary group-hover:bg-primary group-hover:text-white transition duration-300">
+                             <i class="fas fa-ribbon text-4xl"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Red Ribbon Club</h4>
+                        <p class="text-gray-500 text-sm">Promoting health awareness and community service among youth.</p>
                     </div>
-                    <h3 class="text-2xl font-bold text-center mb-4">Football</h3>
-                    <p class="text-gray-600 text-center">Full-sized field with professional coaching</p>
-                </div>
-                
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-lg card-hover">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fas fa-table-tennis text-4xl text-primary"></i>
+                    <div class="group">
+                        <div class="w-20 h-20 bg-primary/10 rounded-3xl flex items-center justify-center mx-auto mb-6 text-primary group-hover:bg-primary group-hover:text-white transition duration-300">
+                             <i class="fas fa-tree text-4xl"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Eco Club</h4>
+                        <p class="text-gray-500 text-sm">Creating environmental awareness and sustainable campus practices.</p>
                     </div>
-                    <h3 class="text-2xl font-bold text-center mb-4">Tennis & TT</h3>
-                    <p class="text-gray-600 text-center">Professional tennis court and table tennis facility</p>
-                </div>
-                
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-lg card-hover">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fas fa-baseball-ball text-4xl text-primary"></i>
+                     <div class="group">
+                        <div class="w-20 h-20 bg-primary/10 rounded-3xl flex items-center justify-center mx-auto mb-6 text-primary group-hover:bg-primary group-hover:text-white transition duration-300">
+                             <i class="fas fa-hands-helping text-4xl"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Social Service</h4>
+                        <p class="text-gray-500 text-sm">Engaging in community outreach and rural development programs.</p>
                     </div>
-                    <h3 class="text-2xl font-bold text-center mb-4">Cricket</h3>
-                    <p class="text-gray-600 text-center">All-weather indoor cricket center with nets</p>
-                </div>
-                
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-lg card-hover">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fas fa-basketball-ball text-4xl text-primary"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold text-center mb-4">Basketball</h3>
-                    <p class="text-gray-600 text-center">Full court with modern equipment</p>
-                </div>
-                
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-lg card-hover">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fas fa-volleyball-ball text-4xl text-primary"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold text-center mb-4">Volleyball</h3>
-                    <p class="text-gray-600 text-center">Indoor and outdoor courts available</p>
-                </div>
-                
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-lg card-hover">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fas fa-running text-4xl text-primary"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold text-center mb-4">Athletics</h3>
-                    <p class="text-gray-600 text-center">Track events and field sports training</p>
-                </div>
-                
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-lg card-hover">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fas fa-swimmer text-4xl text-primary"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold text-center mb-4">Swimming</h3>
-                    <p class="text-gray-600 text-center">Ozonized pool with trained coaches</p>
-                </div>
-                
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-lg card-hover">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fas fa-dumbbell text-4xl text-primary"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold text-center mb-4">Gym & Fitness</h3>
-                    <p class="text-gray-600 text-center">Modern equipment with fitness trainers</p>
-                </div>
-                
-                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-lg card-hover">
-                    <div class="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fas fa-medal text-4xl text-primary"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold text-center mb-4">Kabaddi & Kho-Kho</h3>
-                    <p class="text-gray-600 text-center">Traditional Indian sports training</p>
-                </div>
-            </div>
-
-            <div class="bg-primary-50 rounded-2xl p-8">
-                <h3 class="text-2xl font-bold text-center mb-6">Scouts & Guides</h3>
-                <div class="grid md:grid-cols-3 gap-6 text-center">
-                    <div>
-                        <i class="fas fa-campground text-4xl text-primary mb-4"></i>
-                        <h4 class="font-bold mb-2">Outdoor Activities</h4>
-                        <p class="text-sm text-gray-600">Camping, hiking, and nature exploration</p>
-                    </div>
-                    <div>
-                        <i class="fas fa-hands-helping text-4xl text-primary mb-4"></i>
-                        <h4 class="font-bold mb-2">Community Service</h4>
-                        <p class="text-sm text-gray-600">Social responsibility and leadership</p>
-                    </div>
-                    <div>
-                        <i class="fas fa-certificate text-4xl text-primary mb-4"></i>
-                        <h4 class="font-bold mb-2">Skill Development</h4>
-                        <p class="text-sm text-gray-600">Badges, certifications, and achievements</p>
-                    </div>
-                </div>
+                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Clubs & Activities -->
-    <section class="py-16 bg-gradient-to-br from-primary-50 to-primary-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center mb-4">Clubs & Activities</h2>
-            <p class="text-center text-xl text-gray-600 mb-12">
-                25+ extra-curricular options for holistic development
-            </p>
-            
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div class="bg-white rounded-xl p-6 shadow-lg text-center card-hover">
-                    <i class="fas fa-music text-5xl text-primary mb-4"></i>
-                    <h3 class="font-bold text-lg mb-2">Music Club</h3>
-                    <p class="text-sm text-gray-600">Vocal & instrumental training</p>
-                </div>
-                
-                <div class="bg-white rounded-xl p-6 shadow-lg text-center card-hover">
-                    <i class="fas fa-theater-masks text-5xl text-primary mb-4"></i>
-                    <h3 class="font-bold text-lg mb-2">Dance Club</h3>
-                    <p class="text-sm text-gray-600">Classical, western, and folk forms</p>
-                </div>
-                
-                <div class="bg-white rounded-xl p-6 shadow-lg text-center card-hover">
-                    <i class="fas fa-palette text-5xl text-primary mb-4"></i>
-                    <h3 class="font-bold text-lg mb-2">Art Club</h3>
-                    <p class="text-sm text-gray-600">Painting, drawing, and crafts</p>
-                </div>
-                
-                <div class="bg-white rounded-xl p-6 shadow-lg text-center card-hover">
-                    <i class="fas fa-drama text-5xl text-primary mb-4"></i>
-                    <h3 class="font-bold text-lg mb-2">Drama Club</h3>
-                    <p class="text-sm text-gray-600">Theater and public speaking</p>
-                </div>
-                
-                <div class="bg-white rounded-xl p-6 shadow-lg text-center card-hover">
-                    <i class="fas fa-robot text-5xl text-primary mb-4"></i>
-                    <h3 class="font-bold text-lg mb-2">Robotics Club</h3>
-                    <p class="text-sm text-gray-600">STEM and innovation projects</p>
-                </div>
-                
-                <div class="bg-white rounded-xl p-6 shadow-lg text-center card-hover">
-                    <i class="fas fa-chess text-5xl text-primary mb-4"></i>
-                    <h3 class="font-bold text-lg mb-2">Chess Club</h3>
-                    <p class="text-sm text-gray-600">Strategic thinking and tournaments</p>
-                </div>
-                
-                <div class="bg-white rounded-xl p-6 shadow-lg text-center card-hover">
-                    <i class="fas fa-book-reader text-5xl text-primary mb-4"></i>
-                    <h3 class="font-bold text-lg mb-2">Literary Club</h3>
-                    <p class="text-sm text-gray-600">Reading, writing, and debates</p>
-                </div>
-                
-                <div class="bg-white rounded-xl p-6 shadow-lg text-center card-hover">
-                    <i class="fas fa-flask text-5xl text-primary mb-4"></i>
-                    <h3 class="font-bold text-lg mb-2">Science Club</h3>
-                    <p class="text-sm text-gray-600">Experiments and exhibitions</p>
-                </div>
-                
-                <div class="bg-white rounded-xl p-6 shadow-lg text-center card-hover">
-                    <i class="fas fa-leaf text-5xl text-primary mb-4"></i>
-                    <h3 class="font-bold text-lg mb-2">Eco Club</h3>
-                    <p class="text-sm text-gray-600">Environmental awareness activities</p>
-                </div>
-                
-                <div class="bg-white rounded-xl p-6 shadow-lg text-center card-hover">
-                    <i class="fas fa-language text-5xl text-primary mb-4"></i>
-                    <h3 class="font-bold text-lg mb-2">Language Club</h3>
-                    <p class="text-sm text-gray-600">Hindi, Tamil, French learning</p>
-                </div>
-                
-                <div class="bg-white rounded-xl p-6 shadow-lg text-center card-hover">
-                    <i class="fas fa-camera text-5xl text-primary mb-4"></i>
-                    <h3 class="font-bold text-lg mb-2">Photography Club</h3>
-                    <p class="text-sm text-gray-600">Visual arts and documentation</p>
-                </div>
-                
-                <div class="bg-white rounded-xl p-6 shadow-lg text-center card-hover">
-                    <i class="fas fa-users text-5xl text-primary mb-4"></i>
-                    <h3 class="font-bold text-lg mb-2">Student Council</h3>
-                    <p class="text-sm text-gray-600">Leadership and governance</p>
-                </div>
-                
-                <div class="bg-white rounded-xl p-6 shadow-lg text-center card-hover">
-                    <i class="fas fa-microphone-alt text-5xl text-primary mb-4"></i>
-                    <h3 class="font-bold text-lg mb-2">Toastmasters Club</h3>
-                    <p class="text-sm text-gray-600">Public speaking & leadership skills</p>
-                </div>
-                
-                <div class="bg-white rounded-xl p-6 shadow-lg text-center card-hover">
-                    <i class="fas fa-globe-americas text-5xl text-primary mb-4"></i>
-                    <h3 class="font-bold text-lg mb-2">Model United Nations</h3>
-                    <p class="text-sm text-gray-600">Diplomacy, debate & global issues</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="py-16 bg-gradient-to-r from-primary to-primary-700 text-white">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-4xl font-bold mb-4">Discover Your Passion</h2>
-            <p class="text-xl mb-8">Join our sports teams and clubs to unlock your potential!</p>
-            <a href="/admissions" class="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg transition inline-block">
-                <i class="fas fa-trophy mr-2"></i>
-                Join SNS Academy
-            </a>
-        </div>
-    </section>
-  `;
+    `;
 };
 
 // Brochure Page
 export const BrochurePage = () => {
     return `
     ${PageHeader(
-        'Digital Brochure',
-        'Download our complete prospectus and learn more about SNS Academy',
+        'College Brochure',
+        'Download our official prospectus and learn more about Dr. SNSCE',
         '/static/images/hero.png',
         'Brochure'
     )}
 
-    <section class="py-16 bg-white">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-12 text-center shadow-xl">
-                <i class="fas fa-file-pdf text-8xl text-primary mb-8"></i>
-                <h2 class="text-4xl font-bold mb-4">SNS Academy Prospectus</h2>
-                <p class="text-xl text-gray-700 mb-8">
-                    Comprehensive guide with complete information about our programs, facilities, admission process, and fees structure.
-                </p>
-                
-                <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-                    <a href="https://snsacademy.org/brochure/" target="_blank" class="bg-primary hover:bg-primary-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition inline-flex items-center justify-center">
-                        <i class="fas fa-download mr-2"></i>
-                        Download Brochure
-                    </a>
-                    <a href="https://snsacademy.org/brochure/" target="_blank" class="bg-primary-100 text-primary hover:bg-primary-200 px-8 py-4 rounded-xl font-bold text-lg transition inline-flex items-center justify-center border-2 border-primary">
-                        <i class="fas fa-external-link-alt mr-2"></i>
-                        View Online
+    <section class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+             <div class="relative inline-block mb-12">
+                <div class="absolute inset-0 bg-primary blur-3xl opacity-20 transform scale-150"></div>
+                <div class="bg-white p-12 rounded-3xl shadow-xl relative z-10 border border-gray-100">
+                    <i class="far fa-file-pdf text-8xl text-primary mb-8 animate-bounce-slow"></i>
+                    <h2 class="text-3xl font-bold mb-4">Official Prospectus 2026-27</h2>
+                    <p class="text-gray-600 mb-10 text-lg">
+                        Get comprehensive details about our B.Ed. curriculum, faculty profiles, infrastructure, and admission guidelines.
+                    </p>
+                    <a href="https://drsnsce.edu.in/wp-content/uploads/2021/11/SNSCE-BROCHURE.pdf" target="_blank" class="bg-primary text-white font-bold px-12 py-5 rounded-2xl hover:bg-primary-700 transition shadow-lg inline-block">
+                        Download PDF Brochure
                     </a>
                 </div>
-                
-                <p class="text-sm text-gray-600">
-                    For printed copies, contact us at <a href="tel:+919629937861" class="text-blue-600 hover:underline">+91 96299 37861</a>
-                </p>
-            </div>
-            
-            <div class="mt-12 grid md:grid-cols-3 gap-8">
-                <div class="text-center">
-                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-graduation-cap text-3xl text-primary"></i>
-                    </div>
-                    <h3 class="font-bold text-lg mb-2">Academic Programs</h3>
-                    <p class="text-sm text-gray-600">Nursery to Grade XII curriculum details</p>
-                </div>
-                
-                <div class="text-center">
-                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-building text-3xl text-primary"></i>
-                    </div>
-                    <h3 class="font-bold text-lg mb-2">Facilities Tour</h3>
-                    <p class="text-sm text-gray-600">Complete infrastructure overview</p>
-                </div>
-                
-                <div class="text-center">
-                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-rupee-sign text-3xl text-primary"></i>
-                    </div>
-                    <h3 class="font-bold text-lg mb-2">Fee Structure</h3>
-                    <p class="text-sm text-gray-600">Transparent pricing and payment options</p>
-                </div>
-            </div>
+             </div>
+             <div>
+                <p class="text-gray-400 font-medium">For physical copies, visit our campus administrative office.</p>
+             </div>
         </div>
     </section>
-  `;
+    `;
 };

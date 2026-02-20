@@ -1,192 +1,91 @@
+
 import { PageHeader } from '../components/page-header'
 
 export const EventsPage = () => {
     return `
     ${PageHeader(
-        'Events & Celebrations',
-        'Experience the vibrant life at SNS Academy through our memorable events, celebrations, and activities',
+        'Events & Achievements',
+        'Celebrating academic excellence, professional development, and cultural vibrancy at Dr. SNSCE',
         '/static/images/SNS Academy Web/Events.webp',
         'Events'
     )}
 
-    <!-- Instagram-Style Gallery -->
-    <section class="py-16 bg-gray-50">
+    <!-- Event Categories -->
+    <section class="py-12 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                 <button class="px-6 py-2 rounded-full bg-primary text-white font-bold">All Events</button>
+                 <button class="px-6 py-2 rounded-full bg-gray-100 text-gray-600 hover:bg-primary-50 hover:text-primary transition font-bold">Workshops</button>
+                 <button class="px-6 py-2 rounded-full bg-gray-100 text-gray-600 hover:bg-primary-50 hover:text-primary transition font-bold">Cultural</button>
+                 <button class="px-6 py-2 rounded-full bg-gray-100 text-gray-600 hover:bg-primary-50 hover:text-primary transition font-bold">Academic</button>
+            </div>
+
             <!-- Gallery Grid -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 
-                <!-- Event 1: Pongal Celebration -->
-                <div class="group relative overflow-hidden rounded-2xl shadow-lg cursor-pointer aspect-square">
-                    <div class="absolute inset-0">
-                        <img src="https://scontent-maa5-1.cdninstagram.com/v/t51.82787-15/615988042_18341067322235871_4506448674383653617_n.webp?_nc_cat=106&ig_cache_key=MzgxMDI1ODMyOTE2ODcyOTA5NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=xNNLWsTZ02YQ7kNvwEu3a_8&_nc_oc=AdnE2Jz4idXUR2xLd8Sv7r4-oDwxPYO34herU5UHNpe3mpxkaWXXhvvY0meI3mu_4Uc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-maa5-1.cdninstagram.com&_nc_gid=TxLpu_55NmXdHJ4GP2aRpQ&oh=00_AfvhXQWUUMuamrG7McrkuhqOzxceK1YUqduf40lVqACcDA&oe=69876BAB" alt="Pongal Celebration" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                    </div>
-                    <!-- Always visible title -->
-                    <div class="absolute bottom-0 left-0 right-0 p-6 group-hover:opacity-0 transition-opacity duration-300">
-                        <h3 class="text-white font-bold text-2xl">Pongal Celebration</h3>
-                    </div>
-                    <!-- Hover overlay with full details -->
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                        <div>
-                            <h3 class="text-white font-bold text-2xl mb-2">Pongal Celebration</h3>
-                            <p class="text-white/90 text-sm mb-3">உங்கள் இல்லங்களிலும் மகிழ்ச்சியும், மனங்களில் நன்றியுணர்வும், வாழ்வில் வளமும் நிறையட்டும். பாரம்பரியமும் பண்பாடும் போற்றப்படும் இந்த நன்னாளில், புதிய நம்பிக்கைகளும் நல்ல தொடக்கங்களும் மலரட்டும். SNS கல்வி நிறுவனங்கள் சார்பாக இனிய பொங்கல் திருநாள் நல்வாழ்த்துகள்!</p>
-                            <div class="flex items-center text-white/80 text-xs space-x-4 mb-3">
-                                <span><i class="fas fa-calendar mr-1"></i> Jan 2026</span>
-                                <span><i class="fas fa-star mr-1"></i> Festival</span>
-                            </div>
-                            <a href="https://www.instagram.com/p/DTgwcNEk1QH/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center bg-white/20 hover:bg-white/30 backdrop-blur text-white px-4 py-2 rounded-lg text-xs font-semibold transition border border-white/30">
-                                <i class="fas fa-arrow-right mr-2"></i> Read More
-                            </a>
-                        </div>
-                    </div>
-                    <div class="absolute top-4 left-4">
-                        <span class="bg-primary text-white px-3 py-1 rounded-full text-xs font-bold">Festival</span>
+                <!-- Event 1: Graduation Day -->
+                <div class="group relative overflow-hidden rounded-3xl shadow-lg aspect-[4/5] bg-gray-200">
+                    <img src="/static/images/hero2.png" alt="Graduation Day" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-8">
+                        <span class="bg-primary text-white px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider mb-3 inline-block">Academic</span>
+                        <h3 class="text-white font-bold text-2xl mb-2">15th Graduation Day</h3>
+                        <p class="text-white/70 text-sm line-clamp-2">Celebrating the success of our student-teachers as they transition into professional educators.</p>
                     </div>
                 </div>
 
-                <!-- Event 2: Green Day Celebration -->
-                <div class="group relative overflow-hidden rounded-2xl shadow-lg cursor-pointer aspect-square">
-                    <div class="absolute inset-0">
-                        <img src="https://scontent-maa5-1.cdninstagram.com/v/t51.82787-15/611728039_17911953312271418_5225745699396843246_n.webp?_nc_cat=106&ig_cache_key=MzgwNjY5MDI0MTg3NzYzNTY4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4NzIwLnNkci5DMyJ9&_nc_ohc=xGaUyz2YMlwQ7kNvwHR9QsT&_nc_oc=Adm3ek1R3q64eopEjFdURx7ZSsSdUSz8b7nqM1IBToWDI0XL-k0mq54F5hiIKmodbZk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-maa5-1.cdninstagram.com&_nc_gid=eBHSSBXLsiP3Fka5gDdNAw&oh=00_AftD9HwAS4fNAE1LcVxurYxSvIeqdzrO4_IwQuyUxZL1QQ&oe=698757F0" alt="Green Day Celebration" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                    </div>
-                    <!-- Always visible title -->
-                    <div class="absolute bottom-0 left-0 right-0 p-6 group-hover:opacity-0 transition-opacity duration-300">
-                        <h3 class="text-white font-bold text-2xl">Green Day Celebration</h3>
-                    </div>
-                    <!-- Hover overlay with full details -->
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                        <div>
-                            <h3 class="text-white font-bold text-2xl mb-2">Green Day Celebration</h3>
-                            <p class="text-white/90 text-sm mb-3">Our little learners of SNS Academy had stepped out of their classrooms and into nature as part of Green Day celebrations. Taken to the lush lawn areas, children were introduced to the importance of greenery, plants, and caring for our environment. A beautiful day filled with curiosity, smiles, and meaningful lessons—planting the seeds of environmental responsibility from an early age.</p>
-                            <div class="flex items-center text-white/80 text-xs space-x-4 mb-3">
-                                <span><i class="fas fa-calendar mr-1"></i> Jan 2026</span>
-                                <span><i class="fas fa-leaf mr-1"></i> Environment</span>
-                            </div>
-                            <a href="https://www.instagram.com/p/DTUFJ3ID1Ys/?img_index=1" target="_blank" rel="noopener noreferrer" class="inline-flex items-center bg-white/20 hover:bg-white/30 backdrop-blur text-white px-4 py-2 rounded-lg text-xs font-semibold transition border border-white/30">
-                                <i class="fas fa-arrow-right mr-2"></i> Read More
-                            </a>
-                        </div>
-                    </div>
-                    <div class="absolute top-4 left-4">
-                        <span class="bg-primary text-white px-3 py-1 rounded-full text-xs font-bold">Environment</span>
+                <!-- Event 2: Teachers Day -->
+                <div class="group relative overflow-hidden rounded-3xl shadow-lg aspect-[4/5] bg-gray-200">
+                    <img src="/static/images/hero.png" alt="Teachers Day" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-8">
+                        <span class="bg-primary-500 text-white px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider mb-3 inline-block">Cultural</span>
+                        <h3 class="text-white font-bold text-2xl mb-2">Teachers Day Celebration</h3>
+                        <p class="text-white/70 text-sm line-clamp-2">Honoring the dedication and hard work of our faculty members with vibrant cultural performances.</p>
                     </div>
                 </div>
 
-                <!-- Event 3: Little Chef -->
-                <div class="group relative overflow-hidden rounded-2xl shadow-lg cursor-pointer aspect-square">
-                    <div class="absolute inset-0">
-                        <img src="https://scontent-maa3-4.cdninstagram.com/v/t51.82787-15/612048914_18340162762235871_4589295776461399701_n.webp?_nc_cat=102&ig_cache_key=MzgwMzczNDU2NjQyMzk5Nzg0Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4NzIwLnNkci5DMyJ9&_nc_ohc=SwoO0anUKZgQ7kNvwEHAjv7&_nc_oc=AdlC_Uqv_FiZKiEzwi762K48ex6vOXRjieKviXApXfKnCdjMK5tGDm5QzNUoPKqs050&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-maa3-4.cdninstagram.com&_nc_gid=mVC0gIw4aY5kbTMyjoe5MA&oh=00_AfsFFHCh3RLa_9-7AKNCISkZjzdzzalBvPIMPLUFawZlZw&oe=69877F45" alt="Little Chef Activity" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                    </div>
-                    <!-- Always visible title -->
-                    <div class="absolute bottom-0 left-0 right-0 p-6 group-hover:opacity-0 transition-opacity duration-300">
-                        <h3 class="text-white font-bold text-2xl">Little Chef</h3>
-                    </div>
-                    <!-- Hover overlay with full details -->
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                        <div>
-                            <h3 class="text-white font-bold text-2xl mb-2">Little Chef</h3>
-                            <p class="text-white/90 text-sm mb-3">Our kindergarten students of SNS Academy, joyfully stepped into the role of little chefs during a fun-filled Salad Making Activity. With colourful vegetables, curious minds, and happy smiles, children explored healthy eating while engaging in hands-on culinary learning. This delightful activity encouraged creativity, teamwork, and awareness about nutritious food—making learning both tasty and meaningful!</p>
-                            <div class="flex items-center text-white/80 text-xs space-x-4 mb-3">
-                                <span><i class="fas fa-calendar mr-1"></i> Jan 2026</span>
-                                <span><i class="fas fa-utensils mr-1"></i> Kindergarten</span>
-                            </div>
-                            <a href="https://www.instagram.com/p/DTJlHSKExme/?img_index=1" target="_blank" rel="noopener noreferrer" class="inline-flex items-center bg-white/20 hover:bg-white/30 backdrop-blur text-white px-4 py-2 rounded-lg text-xs font-semibold transition border border-white/30">
-                                <i class="fas fa-arrow-right mr-2"></i> Read More
-                            </a>
-                        </div>
-                    </div>
-                    <div class="absolute top-4 left-4">
-                        <span class="bg-primary text-white px-3 py-1 rounded-full text-xs font-bold">Activity</span>
+                <!-- Event 3: Workshop -->
+                <div class="group relative overflow-hidden rounded-3xl shadow-lg aspect-[4/5] bg-gray-200">
+                    <img src="/static/images/Innovation.jpg" alt="Pedagogy Workshop" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-8">
+                        <span class="bg-yellow-500 text-white px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider mb-3 inline-block">Professional</span>
+                        <h3 class="text-white font-bold text-2xl mb-2">Pedagogy Workshop</h3>
+                        <p class="text-white/70 text-sm line-clamp-2">External experts sharing insights on 21st-century teaching-learning strategies.</p>
                     </div>
                 </div>
 
-                <!-- Event 4: Happy New Year -->
-                <div class="group relative overflow-hidden rounded-2xl shadow-lg cursor-pointer aspect-square">
-                    <div class="absolute inset-0">
-                        <img src="https://scontent-maa5-2.cdninstagram.com/v/t51.82787-15/608763132_18339603499235871_232124846933807831_n.webp?_nc_cat=108&ig_cache_key=MzgwMDA2NTYxNjY0MTIwNDg3OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=MgP7BhFMCiEQ7kNvwHjUq7Q&_nc_oc=AdmWZQS89EIXg4arDrqUqPWAZfcKsOg6359mmUheylwKnCOOqe2kAw9iX47C9oOvU24&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-maa5-2.cdninstagram.com&_nc_gid=eBHSSBXLsiP3Fka5gDdNAw&oh=00_Afs6gR-NS9dM3eqL5tlIEmNMw8QouFbpeUUehiraw8mwog&oe=6987788F" alt="Happy New Year" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                <!-- Event 4: Yoga Day -->
+                <div class="group relative overflow-hidden rounded-3xl shadow-lg aspect-[4/5] bg-gray-200">
+                    <img src="/static/images/Campus.jpg" alt="International Yoga Day" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-8">
+                        <span class="bg-green-500 text-white px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider mb-3 inline-block">Wellness</span>
+                        <h3 class="text-white font-bold text-2xl mb-2">International Yoga Day</h3>
+                        <p class="text-white/70 text-sm line-clamp-2">Promoting mental and physical well-being among future teachers through specialized yoga sessions.</p>
                     </div>
-                    <!-- Always visible title -->
-                    <div class="absolute bottom-0 left-0 right-0 p-6 group-hover:opacity-0 transition-opacity duration-300">
-                        <h3 class="text-white font-bold text-2xl">Happy New Year</h3>
-                    </div>
-                    <!-- Hover overlay with full details -->
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                        <div>
-                            <h3 class="text-white font-bold text-2xl mb-2">Happy New Year</h3>
-                            <p class="text-white/90 text-sm mb-3">Happy New Year from SNS Institutions! "Empowering Minds. Shaping Futures. Welcome to New Beginnings." Wishing everyone a year filled with growth, excellence, and positivity.</p>
-                            <div class="flex items-center text-white/80 text-xs space-x-4 mb-3">
-                                <span><i class="fas fa-calendar mr-1"></i> Jan 2026</span>
-                                <span><i class="fas fa-star mr-1"></i> Celebration</span>
-                            </div>
-                            <a href="https://www.instagram.com/p/DS8i4tzEyKO/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center bg-white/20 hover:bg-white/30 backdrop-blur text-white px-4 py-2 rounded-lg text-xs font-semibold transition border border-white/30">
-                                <i class="fas fa-arrow-right mr-2"></i> Read More
-                            </a>
-                        </div>
-                    </div>
-                    <div class="absolute top-4 left-4">
-                        <span class="bg-primary text-white px-3 py-1 rounded-full text-xs font-bold">Celebration</span>
+                </div>
+                
+                 <!-- Event 5: Heritage Tour -->
+                <div class="group relative overflow-hidden rounded-3xl shadow-lg aspect-[4/5] bg-gray-200">
+                    <img src="/static/images/Facility_lab.jpg" alt="Educational Tour" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-8">
+                        <span class="bg-blue-500 text-white px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider mb-3 inline-block">Experiential</span>
+                        <h3 class="text-white font-bold text-2xl mb-2">Educational Tour</h3>
+                        <p class="text-white/70 text-sm line-clamp-2">Mid-year excursion to historical and educational sites to promote cultural awareness.</p>
                     </div>
                 </div>
 
-                <!-- Event 5: Christmas Celebration -->
-                <div class="group relative overflow-hidden rounded-2xl shadow-lg cursor-pointer aspect-square">
-                    <div class="absolute inset-0">
-                        <img src="https://scontent-maa3-1.cdninstagram.com/v/t51.82787-15/605713373_18338808703235871_6262506903073291867_n.webp?_nc_cat=101&ig_cache_key=Mzc5NTAwMDEzNzUyMjI5NzU5MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=tPHRHvy0ZdUQ7kNvwHjYL5H&_nc_oc=AdkEZVRvbsnFllt4znon8-m4kjJAC9kjtUcNBQLLjfFY3MmN97bGj2ljTjTqO3lX0_M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-maa3-1.cdninstagram.com&_nc_gid=SMeZyFwDQ6zdYvow83ynIw&oh=00_Afsxm20KSAvu0pQGczXsW754UTbufIywSaXeeuI4EqSvSg&oe=6987ADA1" alt="Christmas Celebration" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                    </div>
-                    <!-- Always visible title -->
-                    <div class="absolute bottom-0 left-0 right-0 p-6 group-hover:opacity-0 transition-opacity duration-300">
-                        <h3 class="text-white font-bold text-2xl">Christmas Celebration</h3>
-                    </div>
-                    <!-- Hover overlay with full details -->
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                        <div>
-                            <h3 class="text-white font-bold text-2xl mb-2">Christmas Celebration</h3>
-                            <p class="text-white/90 text-sm mb-3">May this festive season fill your hearts with joy, peace, and goodwill. Wishing everyone a Christmas filled with love, happiness, and new beginnings. Warm Christmas wishes from SNS Institutions!!!</p>
-                            <div class="flex items-center text-white/80 text-xs space-x-4 mb-3">
-                                <span><i class="fas fa-calendar mr-1"></i> Dec 2025</span>
-                                <span><i class="fas fa-gift mr-1"></i> Festival</span>
-                            </div>
-                            <a href="https://www.instagram.com/p/DSqjISvkzr3/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center bg-white/20 hover:bg-white/30 backdrop-blur text-white px-4 py-2 rounded-lg text-xs font-semibold transition border border-white/30">
-                                <i class="fas fa-arrow-right mr-2"></i> Read More
-                            </a>
-                        </div>
-                    </div>
-                    <div class="absolute top-4 left-4">
-                        <span class="bg-primary text-white px-3 py-1 rounded-full text-xs font-bold">Festival</span>
-                    </div>
-                </div>
-
-                <!-- Event 6: Educational Tour -->
-                <div class="group relative overflow-hidden rounded-2xl shadow-lg cursor-pointer aspect-square">
-                    <div class="absolute inset-0">
-                        <img src="https://scontent-maa5-2.cdninstagram.com/v/t51.82787-15/600926622_18338297017235871_4661934839550693_n.webp?_nc_cat=108&ig_cache_key=Mzc5MTQ0MDEwMzUyOTk3OTM2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwNzl4NzE5LnNkci5DMyJ9&_nc_ohc=hj6nIL29W-gQ7kNvwH6fa6p&_nc_oc=Adn2izmgrMj0wJvaoenoDA4Z8oVyZEYWScjV9qu9RYkMwMa4dymbXpg6j5aqtsYdwus&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-maa5-2.cdninstagram.com&_nc_gid=SMeZyFwDQ6zdYvow83ynIw&oh=00_AftllX9COVfNADSiq96pbuZ3I7MCjUEczOw5dRbT4Vt8Nw&oe=6987A25D" alt="Educational Tour" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                    </div>
-                    <!-- Always visible title -->
-                    <div class="absolute bottom-0 left-0 right-0 p-6 group-hover:opacity-0 transition-opacity duration-300">
-                        <h3 class="text-white font-bold text-2xl">Educational Tour</h3>
-                    </div>
-                    <!-- Hover overlay with full details -->
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
-                        <div>
-                            <h3 class="text-white font-bold text-2xl mb-2">Educational Tour</h3>
-                            <p class="text-white/90 text-sm mb-3">Our Mid Wing students of SNS Academy enjoyed an enriching educational tour to Thekkady, where learning met nature and adventure. From exploring the Periyar Wildlife Sanctuary to understanding biodiversity and conservation firsthand, the experience went beyond textbooks. Filled with teamwork, joy, and unforgettable memories!</p>
-                            <div class="flex items-center text-white/80 text-xs space-x-4 mb-3">
-                                <span><i class="fas fa-calendar mr-1"></i> Dec 2025</span>
-                                <span><i class="fas fa-hiking mr-1"></i> Thekkady</span>
-                            </div>
-                            <a href="https://www.instagram.com/p/DSd5rGBEwpi/?img_index=1" target="_blank" rel="noopener noreferrer" class="inline-flex items-center bg-white/20 hover:bg-white/30 backdrop-blur text-white px-4 py-2 rounded-lg text-xs font-semibold transition border border-white/30">
-                                <i class="fas fa-arrow-right mr-2"></i> Read More
-                            </a>
-                        </div>
-                    </div>
-                    <div class="absolute top-4 left-4">
-                        <span class="bg-primary text-white px-3 py-1 rounded-full text-xs font-bold">Educational Tour</span>
+                <!-- Event 6: Investiture -->
+                <div class="group relative overflow-hidden rounded-3xl shadow-lg aspect-[4/5] bg-gray-200">
+                    <img src="/static/images/Facility_lib.jpg" alt="Investiture Ceremony" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 right-0 p-8">
+                        <span class="bg-purple-500 text-white px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider mb-3 inline-block">Leadership</span>
+                        <h3 class="text-white font-bold text-2xl mb-2">Student Council Investiture</h3>
+                        <p class="text-white/70 text-sm line-clamp-2">Electing and empowering student-leaders for the academic year.</p>
                     </div>
                 </div>
 
@@ -194,18 +93,63 @@ export const EventsPage = () => {
         </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="py-16 bg-white">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-4xl font-bold text-gray-900 mb-6">Be Part of Our Vibrant Community</h2>
-            <p class="text-xl text-gray-600 mb-8">
-                Join SNS Academy and create unforgettable memories through our diverse events and celebrations!
-            </p>
-            <a href="/admissions" class="inline-flex items-center bg-primary hover:bg-primary-700 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl transition">
-                <i class="fas fa-pen-to-square mr-2"></i>
-                Apply for Admission
-            </a>
+    <!-- Results Section -->
+    <section class="py-24 bg-primary text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="lg:w-1/3">
+                    <h2 class="text-4xl font-bold mb-6">Academic Achievements</h2>
+                    <p class="text-lg opacity-80 leading-relaxed mb-8">
+                        Our students consistently perform at the highest levels in the Tamil Nadu Teachers Education University examinations.
+                    </p>
+                    <div class="bg-primary-700 p-6 rounded-2xl border border-primary-600">
+                        <div class="text-4xl font-extrabold mb-2">100%</div>
+                        <p class="text-sm font-bold uppercase tracking-widest">University Result 2023-24</p>
+                    </div>
+                </div>
+                <div class="lg:w-2/3 grid grid-cols-2 gap-8">
+                     <div class="bg-white/10 p-8 rounded-3xl border border-white/20">
+                        <h4 class="text-xl font-bold mb-2">Distinctions</h4>
+                        <p class="text-5xl font-extrabold text-white mb-4">42+</p>
+                        <p class="text-sm opacity-60">Students secured distinction in last academic year</p>
+                     </div>
+                     <div class="bg-white/10 p-8 rounded-3xl border border-white/20">
+                        <h4 class="text-xl font-bold mb-2">Placement Success</h4>
+                        <p class="text-5xl font-extrabold text-white mb-4">95%</p>
+                        <p class="text-sm opacity-60">Graduates placed in reputed educational institutions</p>
+                     </div>
+                </div>
+            </div>
         </div>
     </section>
-  `;
+
+    <!-- News Feed (Static Mock) -->
+    <section class="py-24 bg-white">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Latest News & Announcements</h2>
+            <div class="space-y-8">
+                <div class="border-b border-gray-100 pb-8 flex gap-6">
+                    <div class="text-center bg-gray-50 px-4 py-3 rounded-2xl shrink-0">
+                        <span class="block text-2xl font-bold text-primary">20</span>
+                        <span class="text-xs font-bold uppercase tracking-widest text-gray-400">May</span>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg mb-2">Applications invited for B.Ed. Admission 2026-27</h4>
+                        <p class="text-gray-600 text-sm">Online and offline application forms are now available at the college office.</p>
+                    </div>
+                </div>
+                <div class="border-b border-gray-100 pb-8 flex gap-6">
+                    <div class="text-center bg-gray-50 px-4 py-3 rounded-2xl shrink-0">
+                        <span class="block text-2xl font-bold text-primary">15</span>
+                        <span class="text-xs font-bold uppercase tracking-widest text-gray-400">May</span>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg mb-2">Guest Lecture on "Digital Pedagogy"</h4>
+                        <p class="text-gray-600 text-sm">Keynote by Dr. Ramesh, Educational Consultant, on modern teaching tools.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    `;
 };
