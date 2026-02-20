@@ -13,7 +13,7 @@ export const SuccessStoriesPage = () => {
     <!-- Featured Story -->
     <section class="py-16 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-br from-orange-100 to-red-100 rounded-3xl overflow-hidden shadow-2xl">
+            <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-3xl overflow-hidden shadow-2xl">
                 <div class="grid lg:grid-cols-2 gap-8">
                     <div class="h-96 lg:h-auto relative overflow-hidden">
                         <img src="https://scontent-maa3-2.cdninstagram.com/v/t51.82787-15/618548952_17913080631271418_4275555023929199059_n.webp?_nc_cat=110&ig_cache_key=MzgxNDEzNTM1MDc3MjYyMjE5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=qL3MgYlQMwsQ7kNvwFRBblW&_nc_oc=Adnyply_5YwqDHFFfjCmwR3y9kdAaViAA18ZLBpmiNAJ8OKMSlQHOWWq8obsflCUyno&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-maa3-2.cdninstagram.com&_nc_gid=Ub07e9jp45HNLRXJHY7Zmw&oh=00_AfucDmHsYEG1wNs0iP4NQkOwDav0Oap6l_ndXzK01eckrA&oe=698790DD" alt="Book of Record" class="w-full h-full object-cover">
@@ -27,7 +27,7 @@ export const SuccessStoriesPage = () => {
                         </div>
                     </div>
                     <div class="p-8 lg:p-12 flex flex-col justify-center">
-                        <div class="inline-flex items-center bg-purple-600 text-white px-4 py-2 rounded-full text-sm font-semibold mb-4 w-fit">
+                        <div class="inline-flex items-center bg-primary text-white px-4 py-2 rounded-full text-sm font-semibold mb-4 w-fit">
                             <i class="fas fa-star mr-2"></i>
                             Featured Story
                         </div>
@@ -42,7 +42,7 @@ export const SuccessStoriesPage = () => {
                             <span class="mr-4 ml-4">•</span>
                             <span>Jan 2026</span>
                         </div>
-                        <a href="https://www.instagram.com/p/DTuh-S0D-N0/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-purple-600 hover:text-purple-700 font-bold">
+                        <a href="https://www.instagram.com/p/DTuh-S0D-N0/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-primary hover:text-primary-700 font-bold">
                             Read Full Story <i class="fas fa-arrow-right ml-2"></i>
                         </a>
                     </div>
@@ -55,7 +55,7 @@ export const SuccessStoriesPage = () => {
     <section class="py-8 bg-gray-50 border-y">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-wrap items-center justify-center gap-4">
-                <button id="tab-all" class="tab-button px-6 py-2 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition">All Stories</button>
+                <button id="tab-all" class="tab-button px-6 py-2 bg-primary text-white rounded-full font-semibold hover:bg-primary-700 transition">All Stories</button>
                 <button id="tab-academic" class="tab-button px-6 py-2 bg-white text-gray-700 rounded-full font-semibold hover:bg-gray-100 transition border">Academic Excellence</button>
                 <button id="tab-sports" class="tab-button px-6 py-2 bg-white text-gray-700 rounded-full font-semibold hover:bg-gray-100 transition border">Sports Champions</button>
                 <button id="tab-innovation" class="tab-button px-6 py-2 bg-white text-gray-700 rounded-full font-semibold hover:bg-gray-100 transition border">Innovation Leaders</button>
@@ -68,7 +68,6 @@ export const SuccessStoriesPage = () => {
     <!-- Stories Grid (Edutopia-style) -->
     <section class="py-16 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div id="stories-container" class="grid lg:grid-cols-3 gap-8">
             <div id="stories-container" class="grid lg:grid-cols-3 gap-8">
                 <!-- Stories will be dynamically loaded here -->
             </div>
@@ -85,7 +84,7 @@ export const SuccessStoriesPage = () => {
                     image: "https://scontent-maa3-2.cdninstagram.com/v/t51.82787-15/626891271_18344067850235871_1200955119167657763_n.webp?_nc_cat=110&ig_cache_key=MzgyNDA2ODExMTg0NzYwNDczNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwNzl4NzE5LnNkci5DMyJ9&_nc_ohc=imXjG4cdVmsQ7kNvwGqq_yg&_nc_oc=AdnK4WzY-XG-lSMFN_S34f7N4fb3U3JLWATVPcI8wsZ5y8r_uqjbRsT4WKT62ncWDdk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-maa3-2.cdninstagram.com&_nc_gid=Ub07e9jp45HNLRXJHY7Zmw&oh=00_AfuoX1uSIlRO_7mn6t9MhTY8K2_KnHizCmIHqR9wTTso8A&oe=6987641B",
                     date: "January 2026",
                     category: "Academic",
-                    color: "blue",
+                    color: "primary",
                     link: "https://www.instagram.com/p/DUR0kWYE8Zr/?img_index=1"
                 },
                 {
@@ -94,7 +93,7 @@ export const SuccessStoriesPage = () => {
                     image: "https://scontent-maa3-2.cdninstagram.com/v/t51.82787-15/618548952_17913080631271418_4275555023929199059_n.webp?_nc_cat=110&ig_cache_key=MzgxNDEzNTM1MDc3MjYyMjE5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=qL3MgYlQMwsQ7kNvwFRBblW&_nc_oc=Adnyply_5YwqDHFFfjCmwR3y9kdAaViAA18ZLBpmiNAJ8OKMSlQHOWWq8obsflCUyno&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-maa3-2.cdninstagram.com&_nc_gid=Ub07e9jp45HNLRXJHY7Zmw&oh=00_AfucDmHsYEG1wNs0iP4NQkOwDav0Oap6l_ndXzK01eckrA&oe=698790DD",
                     date: "January 2026",
                     category: "Academic",
-                    color: "blue",
+                    color: "primary",
                     link: "https://www.instagram.com/p/DTuh-S0D-N0/"
                 },
                 {
@@ -103,7 +102,7 @@ export const SuccessStoriesPage = () => {
                     image: "https://scontent-maa3-4.cdninstagram.com/v/t51.82787-15/604081912_17909866551271418_8637630666294558801_n.webp?_nc_cat=102&ig_cache_key=Mzc5MzU1NTQyNjMwMzQ4MDc5Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=juJrhcGP48kQ7kNvwFv4eM2&_nc_oc=Adm2H91h59iGs5TJJAs5_OghcuzC8nC70bzV9PD3SbpNSsDo0Xu-Ud6wld_LxUB-UPw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-maa3-4.cdninstagram.com&_nc_gid=92vzA0E3IgpdlBU0520mWg&oh=00_AftWtCfBAdbctc3bHfZ9sHfOiqR_xAPyZZZBmifqM4x4Dg&oe=69878C70",
                     date: "December 2025",
                     category: "Academic",
-                    color: "blue",
+                    color: "primary",
                     link: "https://www.instagram.com/p/DSlao-kkxPY/"
                 }
             ],
@@ -114,7 +113,7 @@ export const SuccessStoriesPage = () => {
                     image: "https://scontent-maa3-4.cdninstagram.com/v/t51.82787-15/602266882_18338402344235871_1239359804105916608_n.webp?_nc_cat=102&ig_cache_key=Mzc5MjE5MTY3OTA4NTQwMDI5Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=FYu6kqQ4dEIQ7kNvwFCkC6p&_nc_oc=AdmFZumBH2qv0pFb5gcotrpZBQiGrkCD7n9vT8lvFBS6G-x_1e6bymbELm-12zG9G8g&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-maa3-4.cdninstagram.com&_nc_gid=92vzA0E3IgpdlBU0520mWg&oh=00_Afticl9DSlYbAKkNqhH7L25gE_6Ejw_i7xFebb54EQr6Vg&oe=6987892D",
                     date: "December 2025",
                     category: "Sports",
-                    color: "green",
+                    color: "primary",
                     link: "https://www.instagram.com/p/DSgkj2AE9Dk/"
                 }
             ],
@@ -126,7 +125,7 @@ export const SuccessStoriesPage = () => {
                     image: "https://scontent-maa3-4.cdninstagram.com/v/t51.82787-15/612048914_18340162762235871_4589295776461399701_n.webp?_nc_cat=102&ig_cache_key=MzgwMzczNDU2NjQyMzk5Nzg0Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4NzIwLnNkci5DMyJ9&_nc_ohc=SwoO0anUKZgQ7kNvwEHAjv7&_nc_oc=AdlC_Uqv_FiZKiEzwi762K48ex6vOXRjieKviXApXfKnCdjMK5tGDm5QzNUoPKqs050&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-maa3-4.cdninstagram.com&_nc_gid=mVC0gIw4aY5kbTMyjoe5MA&oh=00_AfsFFHCh3RLa_9-7AKNCISkZjzdzzalBvPIMPLUFawZlZw&oe=69877F45",
                     date: "January 2026",
                     category: "Community",
-                    color: "orange",
+                    color: "primary",
                     link: "https://www.instagram.com/p/DTJlHSKExme/?img_index=1"
                 }
             ],
@@ -138,7 +137,7 @@ export const SuccessStoriesPage = () => {
                     image: "https://scontent-maa5-1.cdninstagram.com/v/t51.82787-15/589723456_18338450581235871_1039230672173446056_n.webp?_nc_cat=105&ig_cache_key=Mzc5MjUxODkyMDg3Mjg1ODU3NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTM1MC5zZHIuQzMifQ%3D%3D&_nc_ohc=vcsfKL74i8oQ7kNvwECSgZD&_nc_oc=AdlUt4RZ_zNsZfqsoOdnhHO6SWMnGxREOfukW1XNuNeF6ntrtL77o7wVtggCcwr1Odg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-maa5-1.cdninstagram.com&_nc_gid=92vzA0E3IgpdlBU0520mWg&oh=00_AfuLq9WKsZiCwkC0m8Rb-O3ZzDQJGrbsta7665UIMEXcMg&oe=69878A90",
                     date: "December 2025",
                     category: "Leadership",
-                    color: "indigo",
+                    color: "primary",
                     link: "https://www.instagram.com/p/DShu91qkxPO/"
                 }
             ]
@@ -195,13 +194,13 @@ export const SuccessStoriesPage = () => {
         function switchTab(activeTab) {
             // Update tab buttons
             document.querySelectorAll('.tab-button').forEach(button => {
-                button.classList.remove('bg-blue-600', 'text-white');
+                button.classList.remove('bg-primary', 'text-white');
                 button.classList.add('bg-white', 'text-gray-700', 'border');
             });
 
             const activeButton = document.getElementById(\`tab-\${activeTab}\`);
             activeButton.classList.remove('bg-white', 'text-gray-700', 'border');
-            activeButton.classList.add('bg-blue-600', 'text-white');
+            activeButton.classList.add('bg-primary', 'text-white');
 
             // Display stories for the selected category
             displayStories(activeTab);
@@ -231,7 +230,7 @@ export const SuccessStoriesPage = () => {
             <p class="text-xl text-gray-600 mb-8">
                 Join SNS Academy and become part of our legacy of excellence, innovation, and achievement!
             </p>
-            <a href="/admissions" class="inline-flex items-center bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl transition">
+            <a href="/admissions" class="inline-flex items-center bg-primary hover:bg-primary-700 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl transition">
                 <i class="fas fa-pen-to-square mr-2"></i>
                 Start Your Journey
             </a>

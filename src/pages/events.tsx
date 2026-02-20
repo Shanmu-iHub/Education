@@ -41,7 +41,7 @@ export const EventsPage = () => {
                         </div>
                     </div>
                     <div class="absolute top-4 left-4">
-                        <span class="bg-orange-600 text-white px-3 py-1 rounded-full text-xs font-bold">Festival</span>
+                        <span class="bg-primary text-white px-3 py-1 rounded-full text-xs font-bold">Festival</span>
                     </div>
                 </div>
 
@@ -70,7 +70,7 @@ export const EventsPage = () => {
                         </div>
                     </div>
                     <div class="absolute top-4 left-4">
-                        <span class="bg-green-600 text-white px-3 py-1 rounded-full text-xs font-bold">Environment</span>
+                        <span class="bg-primary text-white px-3 py-1 rounded-full text-xs font-bold">Environment</span>
                     </div>
                 </div>
 
@@ -99,7 +99,7 @@ export const EventsPage = () => {
                         </div>
                     </div>
                     <div class="absolute top-4 left-4">
-                        <span class="bg-yellow-600 text-white px-3 py-1 rounded-full text-xs font-bold">Activity</span>
+                        <span class="bg-primary text-white px-3 py-1 rounded-full text-xs font-bold">Activity</span>
                     </div>
                 </div>
 
@@ -128,7 +128,7 @@ export const EventsPage = () => {
                         </div>
                     </div>
                     <div class="absolute top-4 left-4">
-                        <span class="bg-purple-600 text-white px-3 py-1 rounded-full text-xs font-bold">Celebration</span>
+                        <span class="bg-primary text-white px-3 py-1 rounded-full text-xs font-bold">Celebration</span>
                     </div>
                 </div>
 
@@ -157,7 +157,7 @@ export const EventsPage = () => {
                         </div>
                     </div>
                     <div class="absolute top-4 left-4">
-                        <span class="bg-red-600 text-white px-3 py-1 rounded-full text-xs font-bold">Festival</span>
+                        <span class="bg-primary text-white px-3 py-1 rounded-full text-xs font-bold">Festival</span>
                     </div>
                 </div>
 
@@ -186,7 +186,7 @@ export const EventsPage = () => {
                         </div>
                     </div>
                     <div class="absolute top-4 left-4">
-                        <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold">Educational Tour</span>
+                        <span class="bg-primary text-white px-3 py-1 rounded-full text-xs font-bold">Educational Tour</span>
                     </div>
                 </div>
 
@@ -201,7 +201,7 @@ export const EventsPage = () => {
             <p class="text-xl text-gray-600 mb-8">
                 Join SNS Academy and create unforgettable memories through our diverse events and celebrations!
             </p>
-            <a href="/admissions" class="inline-flex items-center bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl transition">
+            <a href="/admissions" class="inline-flex items-center bg-primary hover:bg-primary-700 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl transition">
                 <i class="fas fa-pen-to-square mr-2"></i>
                 Apply for Admission
             </a>

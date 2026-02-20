@@ -16,22 +16,22 @@ export const InnovationPage = () => {
                 <div>
                     <h2 class="text-4xl font-bold mb-6">About SNS iHub</h2>
                     <p class="text-lg text-gray-700 leading-relaxed mb-6">
-                        SNS iHub is an initiative by SNS Institutions to foster startups by providing a prototyping space immersed in an ambience of creativity and our <strong class="text-orange-600">patented GenAI-powered Design Thinking framework</strong>.
+                        SNS iHub is an initiative by SNS Institutions to foster startups by providing a prototyping space immersed in an ambience of creativity and our <strong class="text-primary"><span class="text-primary-600">patented GenAI-powered Design Thinking framework</span></strong>.
                     </p>
                     <p class="text-lg text-gray-700 leading-relaxed">
                         The center helps identify societal/industrial needs and solve them using our AI-enhanced design thinking approach, mentored by experts from academia and industry.
                     </p>
                 </div>
-                <div class="bg-purple-50 rounded-2xl p-8">
+                <div class="bg-primary-50 rounded-2xl p-8">
                     <h3 class="text-2xl font-bold mb-6">RADICAL Technologies</h3>
                     <ul class="space-y-3">
-                        <li class="flex items-start"><i class="fas fa-robot text-orange-600 mr-3 mt-1"></i><span>Robotics & Automation</span></li>
-                        <li class="flex items-start"><i class="fas fa-vr-cardboard text-orange-600 mr-3 mt-1"></i><span>AR/VR Technology</span></li>
-                        <li class="flex items-start"><i class="fas fa-brain text-orange-600 mr-3 mt-1"></i><span>Data Science/AI/ML</span></li>
-                        <li class="flex items-start"><i class="fas fa-network-wired text-orange-600 mr-3 mt-1"></i><span>IoT/Cybersecurity</span></li>
-                        <li class="flex items-start"><i class="fas fa-wifi text-orange-600 mr-3 mt-1"></i><span>Communication Tech</span></li>
-                        <li class="flex items-start"><i class="fas fa-cube text-orange-600 mr-3 mt-1"></i><span>Additive Manufacturing</span></li>
-                        <li class="flex items-start"><i class="fas fa-code text-orange-600 mr-3 mt-1"></i><span>Low Code/No Code</span></li>
+                        <li class="flex items-start"><i class="fas fa-robot text-primary mr-3 mt-1"></i><span>Robotics & Automation</span></li>
+                        <li class="flex items-start"><i class="fas fa-vr-cardboard text-primary mr-3 mt-1"></i><span>AR/VR Technology</span></li>
+                        <li class="flex items-start"><i class="fas fa-brain text-primary mr-3 mt-1"></i><span>Data Science/AI/ML</span></li>
+                        <li class="flex items-start"><i class="fas fa-network-wired text-primary mr-3 mt-1"></i><span>IoT/Cybersecurity</span></li>
+                        <li class="flex items-start"><i class="fas fa-wifi text-primary mr-3 mt-1"></i><span>Communication Tech</span></li>
+                        <li class="flex items-start"><i class="fas fa-cube text-primary mr-3 mt-1"></i><span>Additive Manufacturing</span></li>
+                        <li class="flex items-start"><i class="fas fa-code text-primary mr-3 mt-1"></i><span>Low Code/No Code</span></li>
                     </ul>
                 </div>
             </div>
@@ -39,7 +39,7 @@ export const InnovationPage = () => {
     </section>
 
     <!-- SHAAARP Industry Verticals -->
-    <section class="py-16 bg-gradient-to-br from-orange-50 to-red-50">
+    <section class="py-16 bg-gradient-to-br from-primary-50 to-primary-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
                 <h2 class="text-4xl font-bold mb-4">SHAAARP Industry Verticals</h2>
@@ -48,88 +48,88 @@ export const InnovationPage = () => {
             
             <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
                 <div class="bg-white rounded-2xl p-6 shadow-lg card-hover">
-                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-city text-3xl text-orange-600"></i>
+                    <div class="w-16 h-16 bg-primary-50 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-city text-3xl text-primary"></i>
                     </div>
                     <h3 class="font-bold text-lg text-center mb-3">Smart City & Manufacturing</h3>
                     <p class="text-sm text-gray-600 text-center">IoT, automation, smart infrastructure</p>
                 </div>
                 
                 <div class="bg-white rounded-2xl p-6 shadow-lg card-hover">
-                    <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-heartbeat text-3xl text-red-600"></i>
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-heartbeat text-3xl text-primary"></i>
                     </div>
                     <h3 class="font-bold text-lg text-center mb-3">Healthcare</h3>
                     <p class="text-sm text-gray-600 text-center">AI diagnostics, telemedicine, digital health</p>
                 </div>
                 
                 <div class="bg-white rounded-2xl p-6 shadow-lg card-hover">
-                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-seedling text-3xl text-green-600"></i>
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-seedling text-3xl text-primary"></i>
                     </div>
                     <h3 class="font-bold text-lg text-center mb-3">Agriculture & Food</h3>
                     <p class="text-sm text-gray-600 text-center">Precision farming, food tech, supply chain</p>
                 </div>
                 
                 <div class="bg-white rounded-2xl p-6 shadow-lg card-hover">
-                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-shopping-cart text-3xl text-orange-600"></i>
+                    <div class="w-16 h-16 bg-primary-50 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shopping-cart text-3xl text-primary"></i>
                     </div>
                     <h3 class="font-bold text-lg text-center mb-3">Retail FMCG</h3>
                     <p class="text-sm text-gray-600 text-center">E-commerce, consumer goods, retail analytics</p>
                 </div>
                 
                 <div class="bg-white rounded-2xl p-6 shadow-lg card-hover">
-                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-car text-3xl text-orange-600"></i>
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-car text-3xl text-primary"></i>
                     </div>
                     <h3 class="font-bold text-lg text-center mb-3">Automotive & Aerospace</h3>
                     <p class="text-sm text-gray-600 text-center">Autonomous vehicles, aerospace engineering</p>
                 </div>
                 
                 <div class="bg-white rounded-2xl p-6 shadow-lg card-hover">
-                    <div class="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-shield-alt text-3xl text-indigo-600"></i>
+                    <div class="w-16 h-16 bg-primary-50 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-3xl text-primary"></i>
                     </div>
                     <h3 class="font-bold text-lg text-center mb-3">Defense, Government, Legal</h3>
                     <p class="text-sm text-gray-600 text-center">Security, compliance, legal tech</p>
                 </div>
                 
                 <div class="bg-white rounded-2xl p-6 shadow-lg card-hover">
-                    <div class="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-building text-3xl text-pink-600"></i>
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-building text-3xl text-primary"></i>
                     </div>
                     <h3 class="font-bold text-lg text-center mb-3">Real Estate</h3>
                     <p class="text-sm text-gray-600 text-center">PropTech, smart buildings, analytics</p>
                 </div>
                 
                 <div class="bg-white rounded-2xl p-6 shadow-lg card-hover">
-                    <div class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-futbol text-3xl text-yellow-600"></i>
+                    <div class="w-16 h-16 bg-primary-50 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-futbol text-3xl text-primary"></i>
                     </div>
                     <h3 class="font-bold text-lg text-center mb-3">Sports, Media & Entertainment</h3>
                     <p class="text-sm text-gray-600 text-center">Content creation, gaming, sports tech</p>
                 </div>
                 
                 <div class="bg-white rounded-2xl p-6 shadow-lg card-hover">
-                    <div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-university text-3xl text-teal-600"></i>
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-university text-3xl text-primary"></i>
                     </div>
                     <h3 class="font-bold text-lg text-center mb-3">BFSI - Fintech/Banking</h3>
                     <p class="text-sm text-gray-600 text-center">Financial services, banking technology</p>
                 </div>
                 
                 <div class="bg-white rounded-2xl p-6 shadow-lg card-hover">
-                    <div class="w-16 h-16 bg-cyan-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-bolt text-3xl text-cyan-600"></i>
+                    <div class="w-16 h-16 bg-primary-50 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-bolt text-3xl text-primary"></i>
                     </div>
                     <h3 class="font-bold text-lg text-center mb-3">Power, Oil, Energy</h3>
                     <p class="text-sm text-gray-600 text-center">Energy management, renewables, utilities</p>
                 </div>
                 
                 <div class="bg-white rounded-2xl p-6 shadow-lg card-hover col-span-full md:col-span-1 lg:col-start-3">
-                    <div class="w-16 h-16 bg-rose-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-user-circle text-3xl text-rose-600"></i>
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-user-circle text-3xl text-primary"></i>
                     </div>
                     <h3 class="font-bold text-lg text-center mb-3">Personal Services</h3>
                     <p class="text-sm text-gray-600 text-center">EdTech, Dating/Marriage, HR Tech</p>
@@ -164,16 +164,16 @@ export const InnovationPage = () => {
             <div class="text-center mb-12">
                 <h2 class="text-4xl font-bold mb-4">Mango Big7 Clubs</h2>
                 <p class="text-xl text-gray-600 mb-2">Student clubs focused on industry leaders and career pathways</p>
-                <p class="text-lg text-orange-600 font-semibold">Exposure to world's leading companies and consulting firms</p>
+                <p class="text-lg text-primary font-semibold">Exposure to world's leading companies and consulting firms</p>
             </div>
             
             <!-- Tech Giants -->
             <div class="mb-12">
-                <h3 class="text-3xl font-bold text-center mb-8 text-orange-600">Tech Giants Club</h3>
+                <h3 class="text-3xl font-bold text-center mb-8 text-primary">Tech Giants Club</h3>
                 <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
                     <!-- Meta -->
                     <div class="bg-white rounded-xl p-6 text-center card-hover shadow-lg border border-gray-100">
-                        <div class="w-16 h-16 bg-blue-600 rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+                        <div class="w-16 h-16 bg-primary rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                             <svg class="w-10 h-10 text-white" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
                             </svg>
@@ -184,7 +184,7 @@ export const InnovationPage = () => {
                     
                     <!-- Microsoft -->
                     <div class="bg-white rounded-xl p-6 text-center card-hover shadow-lg border border-gray-100">
-                        <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+                        <div class="w-16 h-16 bg-primary-600 rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                             <svg class="w-10 h-10 text-white" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M0 0h11.377v11.372H0V0zm12.623 0H24v11.372H12.623V0zM0 12.623h11.377V24H0V12.623zm12.623 0H24V24H12.623V12.623z"/>
                             </svg>
@@ -206,7 +206,7 @@ export const InnovationPage = () => {
                     
                     <!-- Amazon -->
                     <div class="bg-white rounded-xl p-6 text-center card-hover shadow-lg border border-gray-100">
-                        <div class="w-16 h-16 bg-orange-500 rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+                        <div class="w-16 h-16 bg-primary rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                             <svg class="w-10 h-10 text-white" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M.045 18.02c.072-.116.187-.124.348-.022 3.636 2.11 7.594 3.166 11.87 3.166 2.852 0 5.668-.533 8.447-1.595l.315-.14c.138-.06.234-.1.293-.13.226-.088.39-.046.525.13.12.174.09.336-.12.48-.256.19-.6.41-1.006.654-1.244.743-2.64 1.316-4.185 1.726-1.548.41-3.156.615-4.83.615-3.268 0-6.306-.756-9.116-2.268-.44-.236-.81-.46-1.11-.67-.18-.124-.3-.22-.36-.29-.09-.11-.12-.21-.07-.31zm23.696-3.017c-.225-.183-.506-.244-.84-.244-.334 0-.664.061-.99.183-.327.122-.61.244-.85.366-.24.122-.45.214-.63.275-.18.061-.33.092-.45.092-.12 0-.21-.031-.27-.092-.06-.061-.09-.153-.09-.275 0-.122.03-.244.09-.366.06-.122.15-.244.27-.366.12-.122.27-.244.45-.366.18-.122.39-.214.63-.275.24-.061.51-.092.81-.092.3 0 .6.031.9.092.3.061.57.153.81.275.24.122.45.244.63.366.18.122.33.244.45.366.12.122.21.244.27.366.06.122.09.244.09.366 0 .122-.03.214-.09.275-.06.061-.15.092-.27.092-.12 0-.27-.031-.45-.092-.18-.061-.39-.153-.63-.275-.24-.122-.52-.244-.84-.366-.32-.122-.65-.183-.99-.183z"/>
                             </svg>
@@ -217,7 +217,7 @@ export const InnovationPage = () => {
                     
                     <!-- Netflix -->
                     <div class="bg-white rounded-xl p-6 text-center card-hover shadow-lg border border-gray-100">
-                        <div class="w-16 h-16 bg-red-600 rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+                        <div class="w-16 h-16 bg-primary-700 rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                             <svg class="w-10 h-10 text-white" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M5.398 0v.006c3.028 8.556 5.37 15.175 8.348 23.596 2.344.058 4.85.398 4.854.398-2.8-7.924-5.923-16.747-8.487-24zm8.489 0v9.63L18.6 22.951c-.043-7.86-.004-15.913.002-22.95zM5.398 1.05V24c2.873-.41 5.398-.82 8.489-.82V9.63L9.191 1.05z"/>
                             </svg>
@@ -228,7 +228,7 @@ export const InnovationPage = () => {
                     
                     <!-- NVIDIA -->
                     <div class="bg-white rounded-xl p-6 text-center card-hover shadow-lg border border-gray-100">
-                        <div class="w-16 h-16 bg-green-600 rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+                        <div class="w-16 h-16 bg-primary-700 rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                             <svg class="w-10 h-10 text-white" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M7.764 0c-.473 0-.857.384-.857.857v22.286c0 .473.384.857.857.857h8.472c.473 0 .857-.384.857-.857V.857c0-.473-.384-.857-.857-.857H7.764zm4.236 2.571c3.314 0 6 2.686 6 6s-2.686 6-6 6-6-2.686-6-6 2.686-6 6-6z"/>
                             </svg>
@@ -253,7 +253,7 @@ export const InnovationPage = () => {
                     
                     <!-- Oracle -->
                     <div class="bg-white rounded-xl p-6 text-center card-hover shadow-lg border border-gray-100">
-                        <div class="w-16 h-16 bg-red-700 rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+                        <div class="w-16 h-16 bg-primary-800 rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                             <svg class="w-10 h-10 text-white" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2.4c5.302 0 9.6 4.298 9.6 9.6s-4.298 9.6-9.6 9.6S2.4 17.302 2.4 12 6.698 2.4 12 2.4z"/>
                             </svg>
@@ -264,7 +264,7 @@ export const InnovationPage = () => {
                     
                     <!-- Tesla -->
                     <div class="bg-white rounded-xl p-6 text-center card-hover shadow-lg border border-gray-100">
-                        <div class="w-16 h-16 bg-red-600 rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
+                        <div class="w-16 h-16 bg-primary-600 rounded-xl flex items-center justify-center mx-auto mb-4 shadow-lg">
                             <svg class="w-10 h-10 text-white" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M12 5.362L8.16 15h7.68L12 5.362zM12 0l8.485 21H3.515L12 0z"/>
                             </svg>
@@ -276,8 +276,8 @@ export const InnovationPage = () => {
             </div>
             
             <!-- Consulting & Finance -->
-            <div class="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-3xl p-8 shadow-lg border border-indigo-100">
-                <h3 class="text-3xl font-bold text-center mb-8 text-indigo-600">Consulting & Finance Club</h3>
+            <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-3xl p-8 shadow-lg border border-primary-200">
+                <h3 class="text-3xl font-bold text-center mb-8 text-primary">Consulting & Finance Club</h3>
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
                     <!-- KPMG -->
                     <div class="bg-white rounded-xl p-6 text-center card-hover shadow-lg border border-gray-100">
@@ -354,7 +354,7 @@ export const InnovationPage = () => {
             </div>
             
             <!-- Club Benefits -->
-            <div class="mt-12 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-2xl p-8 text-white">
+            <div class="mt-12 bg-gradient-to-r from-primary to-primary-700 rounded-2xl p-8 text-white">
                 <h3 class="text-2xl font-bold text-center mb-6">What Students Learn</h3>
                 <div class="grid md:grid-cols-4 gap-6 text-center">
                     <div>
@@ -399,20 +399,20 @@ export const AboutPage = () => {
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-16 items-center">
                 <div class="relative">
-                    <div class="absolute -top-4 -left-4 w-24 h-24 bg-orange-100 rounded-full mix-blend-multiply filter blur-xl opacity-70"></div>
-                    <div class="absolute -bottom-4 -right-4 w-24 h-24 bg-blue-100 rounded-full mix-blend-multiply filter blur-xl opacity-70"></div>
+                    <div class="absolute -top-4 -left-4 w-24 h-24 bg-primary-100 rounded-full mix-blend-multiply filter blur-xl opacity-70"></div>
+                    <div class="absolute -bottom-4 -right-4 w-24 h-24 bg-primary-50 rounded-full mix-blend-multiply filter blur-xl opacity-70"></div>
                     <img src="/static/images/secondary.png" alt="Students Learning" class="relative rounded-2xl shadow-2xl w-full object-cover h-[500px]">
                     <div class="absolute bottom-8 right-8 bg-white/90 backdrop-blur p-6 rounded-xl shadow-lg max-w-xs">
-                        <p class="text-orange-600 font-bold text-lg mb-1">Our Tagline</p>
+                        <p class="text-primary font-bold text-lg mb-1">Our Tagline</p>
                         <p class="text-gray-800 text-sm font-medium">Redesigning Common Minds & Business Towards Excellence</p>
                     </div>
                 </div>
                 
                 <div>
                     <div class="mb-12">
-                        <span class="text-orange-600 font-bold tracking-wider uppercase text-sm mb-2 block">Our Vision</span>
+                        <span class="text-primary font-bold tracking-wider uppercase text-sm mb-2 block">Our Vision</span>
                         <h2 class="text-3xl lg:text-4xl font-bold mb-6 text-gray-900">
-                            Building an <span class="text-orange-600">Entrepreneurial Mindset</span>
+                            Building an <span class="text-primary">Entrepreneurial Mindset</span>
                         </h2>
                         <p class="text-lg text-gray-600 leading-relaxed mb-6">
                             We believe in nurturing the next generation of innovators through our <strong>GenAI-Powered Design Thinking Framework (Patented)</strong>. Our approach goes beyond textbooks, embedding empathy and creativity into the core of learning.
@@ -424,8 +424,8 @@ export const AboutPage = () => {
 
                     <div class="space-y-6">
                         <div class="flex items-start">
-                            <div class="w-12 h-12 bg-orange-50 rounded-lg flex items-center justify-center flex-shrink-0 mr-4">
-                                <i class="fas fa-brain text-xl text-orange-600"></i>
+                            <div class="w-12 h-12 bg-primary-50 rounded-lg flex items-center justify-center flex-shrink-0 mr-4">
+                                <i class="fas fa-brain text-xl text-primary"></i>
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-900 text-lg">Design Thinking</h4>
@@ -433,8 +433,8 @@ export const AboutPage = () => {
                             </div>
                         </div>
                         <div class="flex items-start">
-                            <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center flex-shrink-0 mr-4">
-                                <i class="fas fa-users text-xl text-blue-600"></i>
+                            <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0 mr-4">
+                                <i class="fas fa-users text-xl text-primary"></i>
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-900 text-lg">3P Culture</h4>
@@ -451,7 +451,7 @@ export const AboutPage = () => {
             <section class="py-24 bg-gray-50">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div class="text-center mb-16">
-                        <span class="text-orange-600 font-bold tracking-wider uppercase text-sm mb-2 block">Our Mission</span>
+                        <span class="text-primary font-bold tracking-wider uppercase text-sm mb-2 block">Our Mission</span>
                         <h2 class="text-4xl font-bold mb-6 text-gray-900">5 Pillars of Excellence</h2>
                         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
                             A comprehensive framework designed to nurture well-rounded global citizens.
@@ -562,7 +562,7 @@ export const AboutPage = () => {
     <section class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <span class="text-orange-600 font-bold tracking-wider uppercase text-sm mb-2 block">Our Leadership</span>
+                <span class="text-primary font-bold tracking-wider uppercase text-sm mb-2 block">Our Leadership</span>
                 <h2 class="text-4xl font-bold text-gray-900 mb-6">Visionaries Behind SNS</h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">
                     Guiding the institution with wisdom, innovation, and a commitment to excellence.
@@ -576,11 +576,11 @@ export const AboutPage = () => {
                         <img src="/static/images/chairman.png" alt="Dr. S.N. Subbramanian" class="w-20 h-20 rounded-full object-cover mr-4 border-2 border-white shadow-sm">
                         <div>
                             <h3 class="text-xl font-bold text-gray-900"><span class="text-[70%]">Deiva Thiru</span><br/><span class="text-[90%] font-[900]">Dr. S.N. Subbramanian</span></h3>
-                            <p class="text-orange-600 text-sm font-semibold mt-1">Founder Chairman</p>
+                            <p class="text-primary font-semibold mt-1 text-sm">Founder Chairman</p>
                         </div>
                     </div>
                     <div class="space-y-4">
-                        <p class="text-gray-600 text-sm leading-relaxed italic">
+                        <p class="text-gray-600 text-sm leading-relaxed italic border-l-4 border-primary pl-4 py-1">
                             "We believe that every child is a design thinker. Through our unique Design Thinking framework and 3P Culture, we prepare students not just for exams, but for life."
                         </p>
                     </div>
@@ -592,11 +592,11 @@ export const AboutPage = () => {
                         <img src="/static/images/correspondent.png" alt="Dr. S. Rajalakshmi" class="w-20 h-20 rounded-full object-cover mr-4 border-2 border-white shadow-sm">
                         <div>
                             <h3 class="text-xl font-bold text-gray-900">Dr. S. Rajalakshmi</h3>
-                            <p class="text-orange-600 text-sm font-semibold mt-1">Chairman / Correspondent</p>
+                            <p class="text-primary text-sm font-semibold mt-1">Chairman / Correspondent</p>
                         </div>
                     </div>
                     <div class="space-y-4">
-                        <p class="text-gray-600 text-sm leading-relaxed italic">
+                        <p class="text-gray-600 text-sm leading-relaxed italic border-l-4 border-primary pl-4 py-1">
                             "We focus on holistic development through our 5 Pillars Mission. Our experienced faculty nurtures each child's unique potential, preparing them for global opportunities."
                         </p>
                     </div>
@@ -608,11 +608,11 @@ export const AboutPage = () => {
                         <img src="/static/images/td.png" alt="Nalin SNS" class="w-20 h-20 rounded-full object-cover mr-4 border-2 border-white shadow-sm">
                         <div>
                             <h3 class="text-xl font-bold text-gray-900">Nalin SNS</h3>
-                            <p class="text-orange-600 text-sm font-semibold mt-1">Technical Director</p>
+                            <p class="text-primary text-sm font-semibold mt-1">Technical Director</p>
                         </div>
                     </div>
                     <div class="space-y-4">
-                        <p class="text-gray-600 text-sm leading-relaxed italic">
+                        <p class="text-gray-600 text-sm leading-relaxed italic border-l-4 border-primary pl-4 py-1">
                             "We aim to build <strong class='text-gray-900'>1000 AI startups in 10 years</strong>. SNS iHub serves as India's Y-Combinator, focused on SHAAARP industries and RADICAL technologies."
                         </p>
                     </div>
@@ -640,28 +640,28 @@ export const ContactPage = () => {
                     <h2 class="text-3xl font-bold mb-8">Get In Touch</h2>
                     <div class="space-y-6">
                         <div class="flex items-start">
-                            <i class="fas fa-map-marker-alt text-3xl text-orange-600 mr-4"></i>
+                            <i class="fas fa-map-marker-alt text-3xl text-primary mr-4"></i>
                             <div>
                                 <h3 class="font-bold text-xl mb-2">Address</h3>
                                 <p class="text-gray-700">SNS Academy,<br>Thudiyalur - Saravanampatti Road,<br>Vellakinar Post,<br>Coimbatore - 641029.</p>
                             </div>
                         </div>
                         <div class="flex items-start">
-                            <i class="fas fa-phone text-3xl text-orange-600 mr-4"></i>
+                            <i class="fas fa-phone text-3xl text-primary mr-4"></i>
                             <div>
                                 <h3 class="font-bold text-xl mb-2">Phone</h3>
                                 <p class="text-gray-700">Admission: +91 96299 37861<br>Landline: +91 75300 93730</p>
                             </div>
                         </div>
                         <div class="flex items-start">
-                            <i class="fas fa-envelope text-3xl text-green-600 mr-4"></i>
+                            <i class="fas fa-envelope text-3xl text-primary mr-4"></i>
                             <div>
                                 <h3 class="font-bold text-xl mb-2">Email</h3>
                                 <p class="text-gray-700">General: info@snsacademy.org<br>Career: job@snsgroups.com</p>
                             </div>
                         </div>
                         <div class="flex items-start">
-                            <i class="fas fa-clock text-3xl text-orange-600 mr-4"></i>
+                            <i class="fas fa-clock text-3xl text-primary mr-4"></i>
                             <div>
                                 <h3 class="font-bold text-xl mb-2">Visit Us</h3>
                                 <p class="text-gray-700">Monday - Friday: 9:00 AM - 5:00 PM<br>Saturday: 9:00 AM - 1:00 PM</p>
@@ -754,8 +754,8 @@ export const ContactPage = () => {
                             margin-top: 28px !important;
                             padding: 18px !important;
                             border-radius: 16px !important;
-                            background: #e94a28 !important;
-                            color: #000 !important;
+                            background: #009846 !important;
+                            color: #fff !important;
                             font-size: 18px !important;
                             font-weight: 600 !important;
                             border: none !important;
@@ -765,7 +765,7 @@ export const ContactPage = () => {
                         }
                         
                         .b24-form-btn:hover {
-                            background: #d43d1f !important;
+                            background: #007a38 !important;
                             transform: translateY(-1px);
                         }
                         
@@ -821,8 +821,8 @@ export const AdmissionsPage = () => {
             <h2 class="text-4xl font-bold text-center mb-12">Admission Process</h2>
             <div class="space-y-8">
                 <div class="flex items-start">
-                    <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center flex-shrink-0 mr-6">
-                        <span class="text-2xl font-bold text-orange-600">1</span>
+                    <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0 mr-6">
+                        <span class="text-2xl font-bold text-primary">1</span>
                     </div>
                     <div>
                         <h3 class="text-2xl font-bold mb-2">Register</h3>
@@ -830,8 +830,8 @@ export const AdmissionsPage = () => {
                     </div>
                 </div>
                 <div class="flex items-start">
-                    <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0 mr-6">
-                        <span class="text-2xl font-bold text-orange-600">2</span>
+                    <div class="w-12 h-12 bg-primary-50 rounded-full flex items-center justify-center flex-shrink-0 mr-6">
+                        <span class="text-2xl font-bold text-primary">2</span>
                     </div>
                     <div>
                         <h3 class="text-2xl font-bold mb-2">Assessment</h3>
@@ -839,8 +839,8 @@ export const AdmissionsPage = () => {
                     </div>
                 </div>
                 <div class="flex items-start">
-                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0 mr-6">
-                        <span class="text-2xl font-bold text-green-600">3</span>
+                    <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0 mr-6">
+                        <span class="text-2xl font-bold text-primary">3</span>
                     </div>
                     <div>
                         <h3 class="text-2xl font-bold mb-2">Interview</h3>
@@ -848,8 +848,8 @@ export const AdmissionsPage = () => {
                     </div>
                 </div>
                 <div class="flex items-start">
-                    <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0 mr-6">
-                        <span class="text-2xl font-bold text-orange-600">4</span>
+                    <div class="w-12 h-12 bg-primary-50 rounded-full flex items-center justify-center flex-shrink-0 mr-6">
+                        <span class="text-2xl font-bold text-primary">4</span>
                     </div>
                     <div>
                         <h3 class="text-2xl font-bold mb-2">Selection</h3>
@@ -947,8 +947,8 @@ export const AdmissionsPage = () => {
                         margin-top: 28px !important;
                         padding: 18px !important;
                         border-radius: 16px !important;
-                        background: #e94a28 !important;
-                        color: #000 !important;
+                        background: #009846 !important;
+                        color: #fff !important;
                         font-size: 18px !important;
                         font-weight: 600 !important;
                         border: none !important;
@@ -958,7 +958,7 @@ export const AdmissionsPage = () => {
                     }
                     
                     .b24-form-btn:hover {
-                        background: #d43d1f !important;
+                        background: #007a38 !important;
                         transform: translateY(-1px);
                     }
                     

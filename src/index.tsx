@@ -72,27 +72,27 @@ app.get('/academics/secondary', (c) => {
                         Our GenAI-powered design thinking framework continues to guide students through advanced research, innovation projects, and entrepreneurial ventures while building strong academic foundations.
                     </p>
                 </div>
-                <div class="bg-green-50 rounded-2xl p-8">
+                <div class="bg-primary-50 rounded-2xl p-8">
                     <h3 class="text-2xl font-bold mb-6">Excellence Stage Objectives</h3>
                     <ul class="space-y-4">
                         <li class="flex items-start">
-                            <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                            <i class="fas fa-check-circle text-primary mt-1 mr-3"></i>
                             <span class="text-gray-700">Board Exam Excellence (CBSE X & XII)</span>
                         </li>
                         <li class="flex items-start">
-                            <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                            <i class="fas fa-check-circle text-primary mt-1 mr-3"></i>
                             <span class="text-gray-700">University Application Preparation</span>
                         </li>
                         <li class="flex items-start">
-                            <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                            <i class="fas fa-check-circle text-primary mt-1 mr-3"></i>
                             <span class="text-gray-700">Advanced Research & Innovation</span>
                         </li>
                         <li class="flex items-start">
-                            <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                            <i class="fas fa-check-circle text-primary mt-1 mr-3"></i>
                             <span class="text-gray-700">Entrepreneurial Skills Development</span>
                         </li>
                         <li class="flex items-start">
-                            <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                            <i class="fas fa-check-circle text-primary mt-1 mr-3"></i>
                             <span class="text-gray-700">SAT/TOEFL Coaching & Test Prep</span>
                         </li>
                     </ul>
@@ -110,9 +110,9 @@ app.get('/academics/secondary', (c) => {
             </div>
 
             <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 shadow-lg">
+                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-lg">
                     <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-lg">
-                        <i class="fas fa-flask text-4xl text-blue-600"></i>
+                        <i class="fas fa-flask text-4xl text-primary"></i>
                     </div>
                     <h3 class="text-2xl font-bold mb-4">Science Stream</h3>
                     <p class="text-gray-700 mb-4">Physics, Chemistry, Mathematics/Biology with Computer Science</p>
@@ -124,9 +124,9 @@ app.get('/academics/secondary', (c) => {
                     </ul>
                 </div>
 
-                <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 shadow-lg">
+                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-lg">
                     <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-lg">
-                        <i class="fas fa-calculator text-4xl text-purple-600"></i>
+                        <i class="fas fa-calculator text-4xl text-primary"></i>
                     </div>
                     <h3 class="text-2xl font-bold mb-4">Commerce Stream</h3>
                     <p class="text-gray-700 mb-4">Accountancy, Business Studies, Economics with Mathematics</p>
@@ -138,9 +138,9 @@ app.get('/academics/secondary', (c) => {
                     </ul>
                 </div>
 
-                <div class="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8 shadow-lg">
+                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-lg">
                     <div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-6 shadow-lg">
-                        <i class="fas fa-book text-4xl text-orange-600"></i>
+                        <i class="fas fa-book text-4xl text-primary"></i>
                     </div>
                     <h3 class="text-2xl font-bold mb-4">Humanities Stream</h3>
                     <p class="text-gray-700 mb-4">History, Political Science, Economics, Psychology</p>
@@ -161,8 +161,8 @@ app.get('/academics/secondary', (c) => {
             <h2 class="text-4xl font-bold text-center mb-12">Our Board Results Speak for Themselves</h2>
             
             <div class="grid md:grid-cols-2 gap-8 mb-12">
-                <div class="bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl p-8 shadow-lg text-center">
-                    <div class="text-5xl font-extrabold text-orange-600 mb-2">100%</div>
+                <div class="bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl p-8 shadow-lg text-center">
+                    <div class="text-5xl font-extrabold text-primary mb-2">100%</div>
                     <div class="text-2xl font-bold text-gray-900 mb-2">Class X Pass Rate</div>
                     <div class="text-gray-600">Consistent 100% pass rate for last 3 years</div>
                     <div class="mt-4 text-sm text-gray-600">
@@ -170,8 +170,8 @@ app.get('/academics/secondary', (c) => {
                     </div>
                 </div>
 
-                <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 shadow-lg text-center">
-                    <div class="text-5xl font-extrabold text-green-600 mb-2">100%</div>
+                <div class="bg-gradient-to-br from-primary-50 to-white rounded-2xl p-8 shadow-lg text-center">
+                    <div class="text-5xl font-extrabold text-primary mb-2">100%</div>
                     <div class="text-2xl font-bold text-gray-900 mb-2">Class XII Pass Rate</div>
                     <div class="text-gray-600">Excellent track record across all streams</div>
                     <div class="mt-4 text-sm text-gray-600">
@@ -189,32 +189,32 @@ app.get('/academics/secondary', (c) => {
             
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div class="bg-white rounded-2xl p-6 shadow-lg">
-                    <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-4">
-                        <i class="fas fa-book-reader text-2xl text-orange-600"></i>
+                    <div class="w-12 h-12 bg-primary-50 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-book-reader text-2xl text-primary"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-2">Board Exam Coaching</h3>
                     <p class="text-sm text-gray-600">Intensive preparation for CBSE X & XII board exams</p>
                 </div>
 
                 <div class="bg-white rounded-2xl p-6 shadow-lg">
-                    <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-                        <i class="fas fa-university text-2xl text-blue-600"></i>
+                    <div class="w-12 h-12 bg-primary-50 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-university text-2xl text-primary"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-2">University Counseling</h3>
                     <p class="text-sm text-gray-600">College application support & essay guidance</p>
                 </div>
 
                 <div class="bg-white rounded-2xl p-6 shadow-lg">
-                    <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-4">
-                        <i class="fas fa-certificate text-2xl text-purple-600"></i>
+                    <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-certificate text-2xl text-primary"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-2">SAT/TOEFL Coaching</h3>
                     <p class="text-sm text-gray-600">Standardized test preparation for international universities</p>
                 </div>
 
                 <div class="bg-white rounded-2xl p-6 shadow-lg">
-                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
-                        <i class="fas fa-lightbulb text-2xl text-green-600"></i>
+                    <div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-lightbulb text-2xl text-primary"></i>
                     </div>
                     <h3 class="text-xl font-bold mb-2">Innovation Projects</h3>
                     <p class="text-sm text-gray-600">Real-world startup incubation & research opportunities</p>
@@ -224,14 +224,14 @@ app.get('/academics/secondary', (c) => {
     </section>
 
     <!-- CTA Section -->
-    <section class="py-16 bg-gradient-to-r from-green-500 to-emerald-500 text-white">
+    <section class="py-16 bg-gradient-to-r from-primary to-primary-700 text-white">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-4xl font-bold mb-6">Shape Your Future at SNS Academy</h2>
             <p class="text-xl mb-8 opacity-90">
                 Join India's first GenAI-powered Design Thinking CBSE school and prepare for excellence in board exams and beyond.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="/admissions" class="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg transition">
+                <a href="/admissions" class="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg transition">
                     Apply for Admission
                 </a>
                 <a href="/stanford-pathway" class="bg-white/20 backdrop-blur-lg hover:bg-white/30 px-8 py-4 rounded-xl font-bold text-lg transition">

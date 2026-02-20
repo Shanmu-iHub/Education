@@ -3,8 +3,8 @@ import { PageHeader } from '../components/page-header'
 export const FacilitiesPage = () => {
     return `
     ${PageHeader(
-        'World-Class Infrastructure', 
-        'Everything your child needs for holistic development under one roof—unlocking their potential at the SPINE Activity Center', 
+        'World-Class Infrastructure',
+        'Everything your child needs for holistic development under one roof—unlocking their potential at the SPINE Activity Center',
         '/static/images/hero5.png',
         'Facilities'
     )}
@@ -13,7 +13,7 @@ export const FacilitiesPage = () => {
     <section class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <span class="text-orange-600 font-bold tracking-wider uppercase text-sm mb-2 block">Student Life</span>
+                <span class="text-primary font-bold tracking-wider uppercase text-sm mb-2 block">Student Life</span>
                 <h2 class="text-4xl font-bold text-gray-900 mb-6">SNS SPINE Activity Center</h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">
                     A 5-level world-class activity center for sports, arts, entertainment, and wellness. 
@@ -162,29 +162,29 @@ export const FacilitiesPage = () => {
             
             <div class="grid md:grid-cols-4 gap-8">
                 <div class="bg-white rounded-xl p-8 text-center shadow-lg hover:-translate-y-2 transition duration-300">
-                    <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fas fa-chalkboard-teacher text-3xl text-purple-600"></i>
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-chalkboard-teacher text-3xl text-primary"></i>
                     </div>
                     <h3 class="font-bold text-gray-900 text-lg mb-2">Smart Classrooms</h3>
                     <p class="text-sm text-gray-600">Interactive learning with smart boards</p>
                 </div>
                 <div class="bg-white rounded-xl p-8 text-center shadow-lg hover:-translate-y-2 transition duration-300">
-                    <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fas fa-flask text-3xl text-blue-600"></i>
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-flask text-3xl text-primary"></i>
                     </div>
                     <h3 class="font-bold text-gray-900 text-lg mb-2">Science Labs</h3>
                     <p class="text-sm text-gray-600">Physics, Chemistry & Biology labs</p>
                 </div>
                 <div class="bg-white rounded-xl p-8 text-center shadow-lg hover:-translate-y-2 transition duration-300">
-                    <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fas fa-desktop text-3xl text-green-600"></i>
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-desktop text-3xl text-primary"></i>
                     </div>
                     <h3 class="font-bold text-gray-900 text-lg mb-2">Computer Labs</h3>
                     <p class="text-sm text-gray-600">State-of-the-art computing facilities</p>
                 </div>
-                <div class="bg-white rounded-xl p-8 text-center shadow-lg hover:-translate-y-2 transition duration-300">
-                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <i class="fas fa-book text-3xl text-orange-600"></i>
+                <div class="bg-primary-50 rounded-xl p-8 text-center shadow-lg hover:-translate-y-2 transition duration-300">
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-book text-3xl text-primary"></i>
                     </div>
                     <h3 class="font-bold text-gray-900 text-lg mb-2">Library</h3>
                     <p class="text-sm text-gray-600">Comprehensive resource collection</p>
@@ -194,14 +194,14 @@ export const FacilitiesPage = () => {
     </section>
 
     <!-- CTA -->
-    <section class="py-20 bg-gradient-to-r from-pink-600 to-orange-600 text-white relative overflow-hidden">
+    <section class="py-20 bg-gradient-to-r from-primary to-primary-700 text-white relative overflow-hidden">
         <div class="absolute inset-0 bg-black/10"></div>
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
             <h2 class="text-4xl lg:text-5xl font-bold mb-6">Experience It In Person</h2>
             <p class="text-xl lg:text-2xl mb-10 text-white/90 font-light">
                 Words and pictures can only say so much. Schedule a visit to see our world-class campus.
             </p>
-            <a href="/contact" class="bg-white text-pink-600 hover:bg-gray-100 px-10 py-5 rounded-xl font-bold text-xl shadow-xl transition transform hover:scale-105 inline-block">
+            <a href="/contact" class="bg-white text-primary hover:bg-gray-100 px-10 py-5 rounded-xl font-bold text-xl shadow-xl transition transform hover:scale-105 inline-block">
                 Schedule Campus Tour
             </a>
         </div>

@@ -19,13 +19,13 @@ export const HomePage = () => {
                     </div>
                     
                     <h1 class="text-5xl lg:text-7xl font-extrabold mb-6 leading-tight font-display">
-                        <a href="/stanford-pathway" class="hover:text-orange-400 transition duration-300">
+                        <a href="/stanford-pathway" class="hover:text-primary-400 transition duration-300">
                             Your Pathway to <br/>
-                            <span class="text-orange-500">Stanford</span>
+                            <span class="text-primary">Stanford</span>
                         </a>
                     </h1>
                     
-                    <div class="h-1 w-24 bg-orange-500 mb-8 rounded-full"></div>
+                    <div class="h-1 w-24 bg-primary mb-8 rounded-full"></div>
 
                     <p class="text-xl lg:text-2xl mb-6 text-gray-200 leading-relaxed max-w-xl">
                         Trained by Stanford Alumni, our students learn world-class <strong class="text-white">Design Thinking Methodologies</strong> and innovation practices that open doors to elite universities worldwide.
@@ -36,7 +36,7 @@ export const HomePage = () => {
                     </p>
                     
                     <div class="flex flex-col sm:flex-row gap-4 mb-10">
-                        <a href="/admissions" class="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-orange-500/30 transition transform hover:-translate-y-1 flex items-center justify-center">
+                        <a href="/admissions" class="bg-primary hover:bg-primary-700 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-primary-500/30 transition transform hover:-translate-y-1 flex items-center justify-center">
                             Apply for 2026-27
                             <i class="fas fa-arrow-right ml-2 text-sm"></i>
                         </a>
@@ -48,15 +48,15 @@ export const HomePage = () => {
 
                     <div class="flex flex-col sm:flex-row gap-4 text-xs text-gray-200">
                         <div class="inline-flex items-center">
-                            <i class="fas fa-circle-check text-green-400 mr-2"></i>
+                            <i class="fas fa-circle-check text-primary-400 mr-2"></i>
                             CBSE Affiliated
                         </div>
                         <div class="inline-flex items-center">
-                            <i class="fas fa-shield-halved text-green-400 mr-2"></i>
+                            <i class="fas fa-shield-halved text-primary-400 mr-2"></i>
                             Verified by CBSE
                         </div>
                         <div class="inline-flex items-center">
-                            <i class="fas fa-calendar text-green-400 mr-2"></i>
+                            <i class="fas fa-calendar text-primary-400 mr-2"></i>
                             Since 2014
                         </div>
                     </div>
@@ -118,7 +118,7 @@ export const HomePage = () => {
     <section class="py-24 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-4xl lg:text-5xl font-bold mb-6 text-orange-600">Why Parents Choose SNS Academy</h2>
+                <h2 class="text-4xl lg:text-5xl font-bold mb-6 text-primary">Why Parents Choose SNS Academy</h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
                     We don't just teach subjects—we redesign common minds through design thinking, preparing your child for tomorrow's challenges.
                 </p>
@@ -127,8 +127,8 @@ export const HomePage = () => {
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Card 1 -->
                 <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition duration-300 border border-gray-100 group">
-                    <div class="w-16 h-16 bg-orange-100 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
-                        <i class="fas fa-lightbulb text-3xl text-orange-600"></i>
+                    <div class="w-16 h-16 bg-primary-50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-lightbulb text-3xl text-primary"></i>
                     </div>
                     <h3 class="text-2xl font-bold text-gray-900 mb-4">Design Thinking Education</h3>
                     <p class="text-gray-600 leading-relaxed">
@@ -138,8 +138,8 @@ export const HomePage = () => {
                 
                 <!-- Card 2 -->
                 <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition duration-300 border border-gray-100 group">
-                    <div class="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
-                        <i class="fas fa-users text-3xl text-blue-600"></i>
+                    <div class="w-16 h-16 bg-primary-50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-users text-3xl text-primary"></i>
                     </div>
                     <h3 class="text-2xl font-bold text-gray-900 mb-4">3P Culture Framework</h3>
                     <p class="text-gray-600 leading-relaxed">
@@ -149,8 +149,8 @@ export const HomePage = () => {
                 
                 <!-- Card 3 -->
                 <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition duration-300 border border-gray-100 group">
-                    <div class="w-16 h-16 bg-green-100 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
-                        <i class="fas fa-hand-holding-heart text-3xl text-green-600"></i>
+                    <div class="w-16 h-16 bg-primary-100 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-hand-holding-heart text-3xl text-primary"></i>
                     </div>
                     <h3 class="text-2xl font-bold text-gray-900 mb-4">10:1 Personalized Care</h3>
                     <p class="text-gray-600 leading-relaxed">
@@ -160,8 +160,8 @@ export const HomePage = () => {
                 
                 <!-- Card 4 -->
                 <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition duration-300 border border-gray-100 group">
-                    <div class="w-16 h-16 bg-purple-100 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
-                        <i class="fas fa-rocket text-3xl text-purple-600"></i>
+                    <div class="w-16 h-16 bg-primary-50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-rocket text-3xl text-primary"></i>
                     </div>
                     <h3 class="text-2xl font-bold text-gray-900 mb-4">SNS Innovation Hub</h3>
                     <p class="text-gray-600 leading-relaxed">
@@ -171,8 +171,8 @@ export const HomePage = () => {
                 
                 <!-- Card 5 -->
                 <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition duration-300 border border-gray-100 group">
-                    <div class="w-16 h-16 bg-pink-100 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
-                        <i class="fas fa-building text-3xl text-pink-600"></i>
+                    <div class="w-16 h-16 bg-primary-100 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-building text-3xl text-primary"></i>
                     </div>
                     <h3 class="text-2xl font-bold text-gray-900 mb-4">World-Class SPINE Center</h3>
                     <p class="text-gray-600 leading-relaxed">
@@ -182,8 +182,8 @@ export const HomePage = () => {
                 
                 <!-- Card 6 -->
                 <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition duration-300 border border-gray-100 group">
-                    <div class="w-16 h-16 bg-indigo-100 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
-                        <i class="fas fa-layer-group text-3xl text-indigo-600"></i>
+                    <div class="w-16 h-16 bg-primary-50 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-layer-group text-3xl text-primary"></i>
                     </div>
                     <h3 class="text-2xl font-bold text-gray-900 mb-4">5 Pillars Development</h3>
                     <p class="text-gray-600 leading-relaxed">
@@ -199,7 +199,7 @@ export const HomePage = () => {
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
-                 <span class="text-orange-600">Academic Excellence at Every Level</span>
+                 <span class="text-primary">Academic Excellence at Every Level</span>
                 </h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">
                     CBSE curriculum enhanced with design thinking, experiential learning, and innovation from Nursery to Grade XII.
@@ -215,11 +215,11 @@ export const HomePage = () => {
                     </div>
                     <div class="p-6 bg-white relative z-20">
                         <h3 class="text-2xl font-bold text-gray-900 mb-1">Pre-Primary</h3>
-                        <p class="text-orange-600 font-semibold text-sm mb-3">Nursery - UKG</p>
+                        <p class="text-primary font-semibold text-sm mb-3">Nursery - UKG</p>
                         <p class="text-gray-600 text-sm line-clamp-3">
                             Play-based learning with early literacy, numeracy, and social development.
                         </p>
-                        <div class="mt-4 text-orange-600 font-bold text-sm flex items-center">
+                        <div class="mt-4 text-primary font-bold text-sm flex items-center">
                             Explore <i class="fas fa-arrow-right ml-2 opacity-0 group-hover:opacity-100 transition-opacity transform -translate-x-2 group-hover:translate-x-0"></i>
                         </div>
                     </div>
@@ -233,11 +233,11 @@ export const HomePage = () => {
                     </div>
                     <div class="p-6 bg-white relative z-20">
                         <h3 class="text-2xl font-bold text-gray-900 mb-1">Primary</h3>
-                        <p class="text-blue-600 font-semibold text-sm mb-3">Grades 1 - 5</p>
+                        <p class="text-primary font-semibold text-sm mb-3">Grades 1 - 5</p>
                         <p class="text-gray-600 text-sm line-clamp-3">
                             Conceptual understanding, creativity, and skill development with hands-on learning.
                         </p>
-                        <div class="mt-4 text-blue-600 font-bold text-sm flex items-center">
+                        <div class="mt-4 text-primary font-bold text-sm flex items-center">
                             Explore <i class="fas fa-arrow-right ml-2 opacity-0 group-hover:opacity-100 transition-opacity transform -translate-x-2 group-hover:translate-x-0"></i>
                         </div>
                     </div>
@@ -251,11 +251,11 @@ export const HomePage = () => {
                     </div>
                     <div class="p-6 bg-white relative z-20">
                         <h3 class="text-2xl font-bold text-gray-900 mb-1">Middle School</h3>
-                        <p class="text-purple-600 font-semibold text-sm mb-3">Grades 6 - 8</p>
+                        <p class="text-primary font-semibold text-sm mb-3">Grades 6 - 8</p>
                         <p class="text-gray-600 text-sm line-clamp-3">
                             Critical thinking, problem-solving, and project-based collaborative learning.
                         </p>
-                        <div class="mt-4 text-purple-600 font-bold text-sm flex items-center">
+                        <div class="mt-4 text-primary font-bold text-sm flex items-center">
                             Explore <i class="fas fa-arrow-right ml-2 opacity-0 group-hover:opacity-100 transition-opacity transform -translate-x-2 group-hover:translate-x-0"></i>
                         </div>
                     </div>
@@ -269,11 +269,11 @@ export const HomePage = () => {
                     </div>
                     <div class="p-6 bg-white relative z-20">
                         <h3 class="text-2xl font-bold text-gray-900 mb-1">Secondary</h3>
-                        <p class="text-green-600 font-semibold text-sm mb-3">Grades 9 - 12</p>
+                        <p class="text-primary font-semibold text-sm mb-3">Grades 9 - 12</p>
                         <p class="text-gray-600 text-sm line-clamp-3">
                             Board exam excellence with career pathways and university preparation.
                         </p>
-                        <div class="mt-4 text-green-600 font-bold text-sm flex items-center">
+                        <div class="mt-4 text-primary font-bold text-sm flex items-center">
                             Explore <i class="fas fa-arrow-right ml-2 opacity-0 group-hover:opacity-100 transition-opacity transform -translate-x-2 group-hover:translate-x-0"></i>
                         </div>
                     </div>
@@ -285,7 +285,7 @@ export const HomePage = () => {
     ${ParentsTestimonialsCarousel()}
 
     <!-- CTA Section -->
-    <section class="py-20 bg-gradient-to-r from-orange-600 to-red-600 text-white">
+    <section class="py-20 bg-gradient-to-r from-primary to-primary-700 text-white">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-4xl lg:text-5xl font-bold mb-4">
                 Ready to Transform Your Child's Future?
@@ -294,7 +294,7 @@ export const HomePage = () => {
                 Admissions open for Academic Year 2026-27. Limited seats available.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="/admissions" class="bg-white text-orange-600 hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg transition shadow-xl">
+                <a href="/admissions" class="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-xl font-bold text-lg transition shadow-xl">
                     <i class="fas fa-pen-to-square mr-2"></i>
                     Apply Now
                 </a>
